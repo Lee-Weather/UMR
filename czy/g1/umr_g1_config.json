@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "../../humanoid_retarget_defaults.json",
+    "../../robot_configs/humanoid_retarget_unitree_g1_example.json"
+  ],
+  "smpl_template": {
+    "source": "config",
+    "type": "smplx",
+    "gender": "neutral",
+    "use_betas": true,
+    "use_gender": true,
+    "name": "auto",
+    "betas": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "robot": {
+    "name": "unitree_g1",
+    "xml": "g1_29dof_umr.xml",
+    "point_cloud_center": "body:waist_yaw_link",
+    "sample_pose": "tpose",
+    "xml_policy": {
+      "add_freejoint_root": false
+    }
+  },
+  "correspondence": {
+    "smpl_name": "auto",
+    "slots": "./correspondence/trained/correspondence_slots_final.npz",
+    "slots_field": "reconstructed_slots",
+    "dataset": {
+      "out": "./correspondence/correspondence_unitree_g1_smplx_neutral_betas_b80de5d138.npz"
+    },
+    "train": {
+      "out_dir": "./correspondence/trained",
+      "template_name": "auto",
+      "device": "auto"
+    }
+  },
+  "motion": {
+    "data": "sample_data/ACCAD/Female1Walking_c3d/B1_-_stand_to_walk_stageii.npz",
+    "seq_key": "B1_-_stand_to_walk_stageii",
+    "seq_index": 0,
+    "start": 0,
+    "end": -1,
+    "stride": 1
+  },
+  "retarget": {
+    "human_height": 0.0,
+    "mat_height": 0.0,
+    "source_ground_align": "global_foot_joint",
+    "zero_source_finger_pose": true,
+    "smplx_device": "auto"
+  },
+  "view": {
+    "enabled": false
+  }
+}

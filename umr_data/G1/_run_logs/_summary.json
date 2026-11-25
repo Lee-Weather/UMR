@@ -1,0 +1,78 @@
+[
+  {
+    "short": "Female1_B1_stand_to_walk",
+    "source": "B1_-_stand_to_walk_stageii",
+    "subset": "Female1Walking_c3d",
+    "desc": "站立→行走",
+    "out": "umr_data/G1/accad_walking/Female1_B1_stand_to_walk_unitree_g1.npz",
+    "retarget": "skipped",
+    "video": "skipped"
+  },
+  {
+    "short": "Female1_B3_walk1",
+    "source": "B3_-_walk1_stageii",
+    "subset": "Female1Walking_c3d",
+    "desc": "行走循环",
+    "out": "umr_data/G1/accad_walking/Female1_B3_walk1_unitree_g1.npz",
+    "retarget": "skipped",
+    "video": "skipped"
+  },
+  {
+    "short": "Female1_B10_walk_turn_left_45",
+    "source": "B10_-_walk_turn_left_(45)_stageii",
+    "subset": "Female1Walking_c3d",
+    "desc": "左转 45° 行走",
+    "out": "umr_data/G1/accad_walking/Female1_B10_walk_turn_left_45_unitree_g1.npz",
+    "retarget": "skipped",
+    "video": "skipped"
+  },
+  {
+    "short": "Female1_C3_Run",
+    "source": "C3_-_Run_stageii",
+    "subset": "Female1Running_c3d",
+    "desc": "跑步",
+    "out": "umr_data/G1/accad_running/Female1_C3_Run_unitree_g1.npz",
+    "retarget": "skipped",
+    "video": "skipped"
+  },
+  {
+    "short": "Female1_C5_walk_to_run",
+    "source": "C5_-_walk_to_run_stageii",
+    "subset": "Female1Running_c3d",
+    "desc": "行走→跑步",
+    "out": "umr_data/G1/accad_running/Female1_C5_walk_to_run_unitree_g1.npz",
+    "retarget": "skipped",
+    "video": "skipped"
+  },
+  {
+    "short": "Male2_B14_turn_right_45",
+    "source": "B14_-__Walk_turn_right_45_stageii",
+    "subset": "Male2Walking_c3d",
+    "desc": "右转 45°（男 2 体型）",
+    "out": "umr_data/G1/accad_walking/Male2_B14_turn_right_45_unitree_g1.npz",
+    "retarget": "skipped",
+    "video": "skipped"
+  },
+  {
+    "short": "Female1_A14_stand_to_skip",
+    "source": "A14_-_stand_to_skip_stageii",
+    "subset": "Female1General_c3d",
+    "desc": "站立→跳跃步",
+    "out": "umr_data/G1/accad_general/Female1_A14_stand_to_skip_unitree_g1.npz",
+    "retarget": "ok",
+    "retarget_sec": 87.8,
+    "video": "ok",
+    "video_sec": 20.5
+  },
+  {
+    "short": "Female1_A15_skip_to_stand",
+    "source": "A15_-_skip_to_stand_stageii",
+    "subset": "Female1General_c3d",
+    "desc": "跳跃步→站立",
+    "out": "umr_data/G1/accad_general/Female1_A15_skip_to_stand_unitree_g1.npz",
+    "retarget": "ok",
+    "retarget_sec": 57.3,
+    "video": "ok",
+    "video_sec": 19.7
+  }
+]

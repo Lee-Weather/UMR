@@ -1,0 +1,1047 @@
+{
+  "date": "2026-11-19",
+  "robot": "weichai_f1_29",
+  "robot_xml": "assets/F1.5/weichai_f1_29/mjcf/weichai_f1_29.xml",
+  "robot_xml_sha256": "9cd1e55cdfef13230f95c6b5581dfe80b9e87182910a6ab2b27323939ce2608d",
+  "renderer": "UMR scripts/visualize_robot_retarget_result.py record_video",
+  "mujoco": "3.3.7",
+  "video_fps": 30,
+  "video_size": [
+    1280,
+    720
+  ],
+  "motion_count": 22,
+  "motions": [
+    {
+      "qpos": "accad_general/A1_stand_weichai_f1_29.npz",
+      "qpos_sha256": "7f6145bafa4afbfa0932d11dc64d3be6429e3dd67bfa4c803646189b35c15e90",
+      "qpos_bytes": 51619,
+      "source_qpos_sha256": "d6b5cf16d57d8d5674c19207d7b17b1387cbec510875d2c4690e1c8553a0180a",
+      "source_fps": 120.0,
+      "source_frames": 360,
+      "ase_filename": "A1_stand_weichai_f1_29.npz",
+      "ase_sha256": "90927c161df6331b26600332167a86bf5af68b6f5b29bdc12193f2f651b21d7b",
+      "video": "accad_general/A1_stand_weichai_f1_29.mp4",
+      "video_sha256": "e6a76c41a0bb6cf1b3a4715b34c6dd70aeae931dd61c8620e6d2b90097974201",
+      "video_bytes": 97817,
+      "video_frames": 90,
+      "video_seconds": 3.0,
+      "provenance": {
+        "source_subdir": "Female1General_c3d",
+        "source_file": "A1_-_Stand_stageii.npz",
+        "role": "idle",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_general/A2_sway_weichai_f1_29.npz",
+      "qpos_sha256": "bed0555d9deb088b0f673c0218c04e9d704e3ee1b685d61bba0b66e3a23654ad",
+      "qpos_bytes": 196510,
+      "source_qpos_sha256": "d4f6cdd1d0700257c3c5485e8a3a7325e8fdbb7986f8f0586493b34df32a2a7a",
+      "source_fps": 120.0,
+      "source_frames": 1443,
+      "ase_filename": "A2_sway_weichai_f1_29.npz",
+      "ase_sha256": "47de2d60bd1ae59f47dc8966750226b67a93256f72dbdbdc9ebcf1bf744ad7f2",
+      "video": "accad_general/A2_sway_weichai_f1_29.mp4",
+      "video_sha256": "1c495498385773e563ecae9ea244264e6df04fa1a6b7d234665decb3e9f74531",
+      "video_bytes": 611394,
+      "video_frames": 361,
+      "video_seconds": 12.03,
+      "provenance": {
+        "source_subdir": "Female1General_c3d",
+        "source_file": "A2_-_Sway_stageii.npz",
+        "role": "idle",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/C6_stand_to_run_backwards_weichai_f1_29.npz",
+      "qpos_sha256": "a87d85ec62f8a4c6bda8107ecace3bc6073ef94c5e3fdd92ece49bfe68714a5b",
+      "qpos_bytes": 123164,
+      "source_qpos_sha256": "61a097eab70f577036128e658149a9f6c3f129ddf1aef419025e7ecc22080293",
+      "source_fps": 120.0,
+      "source_frames": 898,
+      "ase_filename": "C6_stand_to_run_backwards_weichai_f1_29.npz",
+      "ase_sha256": "348fbb1ac14cd1ac65508258121a216ed66486ca94b8f64f5fddfa4138c0f31d",
+      "video": "accad_running/C6_stand_to_run_backwards_weichai_f1_29.mp4",
+      "video_sha256": "2964b92d4d011156c677618cb9bb4b62cb451ccb2bc6a743b3b025f428705823",
+      "video_bytes": 626387,
+      "video_frames": 225,
+      "video_seconds": 7.5,
+      "provenance": {
+        "source_subdir": "Female1Running_c3d",
+        "source_file": "C6_-_stand_to_run_backwards_stageii.npz",
+        "role": "backward_run_transition",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/C7_run_backwards_weichai_f1_29.npz",
+      "qpos_sha256": "449aa1689b4932170103b7cade0d69704b5006c31b042ab60ce5af551b54eca5",
+      "qpos_bytes": 50690,
+      "source_qpos_sha256": "25d6a1d57e984905dc07aa918e3deb7c9dc57f2418b22aa1691f69cd534c619f",
+      "source_fps": 120.0,
+      "source_frames": 371,
+      "ase_filename": "C7_run_backwards_weichai_f1_29.npz",
+      "ase_sha256": "3e277c388ee8987afbd9939ddae84322d114d0c16e937b0840926ae603b53753",
+      "video": "accad_running/C7_run_backwards_weichai_f1_29.mp4",
+      "video_sha256": "1ab604aea8c37ed576e545345f9109c7e7351e3cf52d4bad371a1b471a5f2b2f",
+      "video_bytes": 402816,
+      "video_frames": 93,
+      "video_seconds": 3.1,
+      "provenance": {
+        "source_subdir": "Female1Running_c3d",
+        "source_file": "C7_-__run_backwards_stageii.npz",
+        "role": "backward_run",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/M2_C1_stand_to_run_weichai_f1_29.npz",
+      "qpos_sha256": "2eec4a2acfd6cc52aaaee1b3f1bac0fcb6540f7225dfded1d5042b3020c10e6f",
+      "qpos_bytes": 69322,
+      "source_qpos_sha256": "805f3f4067f60af9aa5f1862cc29d74192c0f45d89eabcd593a57de2c82dcebe",
+      "source_fps": 120.0,
+      "source_frames": 491,
+      "ase_filename": "M2_C1_stand_to_run_weichai_f1_29.npz",
+      "ase_sha256": "480f28f4afdbb97956e9982a023343e20c69d75afe3e3d07af6b8a1b0c39c8bc",
+      "video": "accad_running/M2_C1_stand_to_run_weichai_f1_29.mp4",
+      "video_sha256": "1d8430050bda90694cf44abdb20796c2b80eb7c9b100e43a1060648cfaf89301",
+      "video_bytes": 353845,
+      "video_frames": 123,
+      "video_seconds": 4.1,
+      "provenance": {
+        "source_subdir": "Male2Running_c3d",
+        "source_file": "C1_-_stand_to_run_stageii.npz",
+        "role": "transition",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/M2_C3_run_weichai_f1_29.npz",
+      "qpos_sha256": "1bf02e5b49c07f722ce34b05c19b7e8b20178fa6e90a8e44b5679ef6fe001682",
+      "qpos_bytes": 46686,
+      "source_qpos_sha256": "fe9124d6ff5b9c9b5cf7966cdc07f6c310dd783e7f1aa86059fc8dc7e22df2b9",
+      "source_fps": 120.0,
+      "source_frames": 326,
+      "ase_filename": "M2_C3_run_weichai_f1_29.npz",
+      "ase_sha256": "59889cabcac80a081f7565b772cf0e5daeea540015d72990b0c3f4fe4e7c4683",
+      "video": "accad_running/M2_C3_run_weichai_f1_29.mp4",
+      "video_sha256": "35aafabe906807103b4c91a7cdc768a40732a433b7f2990e1b4a21fbfb401c4a",
+      "video_bytes": 359003,
+      "video_frames": 82,
+      "video_seconds": 2.73,
+      "provenance": {
+        "source_subdir": "Male2Running_c3d",
+        "source_file": "C3_-_run_stageii.npz",
+        "role": "continuous_run",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/M2_C4_run_to_walk_weichai_f1_29.npz",
+      "qpos_sha256": "46ba13fa1fc28f2d6142383782c2829288d16edb07db1b60a1817c67438b89a5",
+      "qpos_bytes": 65640,
+      "source_qpos_sha256": "a46adf257c462cbd28b5ee3e39d67f38cbb5a6a79fe612aefb523308ace26345",
+      "source_fps": 120.0,
+      "source_frames": 462,
+      "ase_filename": "M2_C4_run_to_walk_weichai_f1_29.npz",
+      "ase_sha256": "5f3920c3b6a2fcdf9f1ef196cb77ae385cc5944f1178b1f6afa3e4c008ab0e28",
+      "video": "accad_running/M2_C4_run_to_walk_weichai_f1_29.mp4",
+      "video_sha256": "33b48a66cfede056f72d8c5c3e87ed3aca2ddb8a1ab40ff563b5f63142fa61dd",
+      "video_bytes": 450969,
+      "video_frames": 116,
+      "video_seconds": 3.86,
+      "provenance": {
+        "source_subdir": "Male2Running_c3d",
+        "source_file": "C4_-_run_to_walk_stageii.npz",
+        "role": "transition",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/M2_C5_walk_to_run_weichai_f1_29.npz",
+      "qpos_sha256": "43eba5dcc8c8b3a5b30778ab6de2c5f81b4f1b3fb311874811229e94feab71f6",
+      "qpos_bytes": 60909,
+      "source_qpos_sha256": "a994943f6ab70a66dd21056f3dcfff42babc83e2aae9f31579f00ba40a8a8cf8",
+      "source_fps": 120.0,
+      "source_frames": 428,
+      "ase_filename": "M2_C5_walk_to_run_weichai_f1_29.npz",
+      "ase_sha256": "0bf699dc2f70d33f64e5c8d92bb5b09a0c2ad070b616a12c8bed6843c85003a7",
+      "video": "accad_running/M2_C5_walk_to_run_weichai_f1_29.mp4",
+      "video_sha256": "0de1a0bbd68119889253ea019bf8f0d616e1cff10a783f33252b6b06ec301323",
+      "video_bytes": 443505,
+      "video_frames": 107,
+      "video_seconds": 3.56,
+      "provenance": {
+        "source_subdir": "Male2Running_c3d",
+        "source_file": "C5_-_walk_to_run_stageii.npz",
+        "role": "transition",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_walking/S007_QkWalk1_weichai_f1_29.npz",
+      "qpos_sha256": "1c8aee10bfec5c0fe0c629664d66cd558d85f230e92bd945c91688ed631fada9",
+      "qpos_bytes": 44186,
+      "source_qpos_sha256": "c66aad4f7ab0dd8b25affc1f494cb1ea6540c25b438c2929d3a59c8f56ed0264",
+      "source_fps": 120.0,
+      "source_frames": 307,
+      "ase_filename": "S007_QkWalk1_weichai_f1_29.npz",
+      "ase_sha256": "67eed18b2090f4658b3c92a73490856869311994d5fae3916d97da0dce682183",
+      "video": "accad_walking/S007_QkWalk1_weichai_f1_29.mp4",
+      "video_sha256": "5dca4bd230bf18f6e20a939ddafb4eb5cb90bfac334941f44414658b631258ad",
+      "video_bytes": 391088,
+      "video_frames": 77,
+      "video_seconds": 2.56,
+      "provenance": {
+        "source_subdir": "s007",
+        "source_file": "QkWalk1_stageii.npz",
+        "role": "walk",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/S008_Run1_weichai_f1_29.npz",
+      "qpos_sha256": "a440f695bd1a40077da1c9d02d3d45439aff5fc9de3c0e73f79ac6e7ba13741b",
+      "qpos_bytes": 31797,
+      "source_qpos_sha256": "2f02044376d847642d0ca442f26137781eac58f3f7f55a268f960be91d00fff3",
+      "source_fps": 120.0,
+      "source_frames": 217,
+      "ase_filename": "S008_Run1_weichai_f1_29.npz",
+      "ase_sha256": "b7c2599e11a5d647191faeac8a84f0883c705d740d2a2d78860c04a6c76a3ccb",
+      "video": "accad_running/S008_Run1_weichai_f1_29.mp4",
+      "video_sha256": "3d3bcecaca2a4a70b795a6a5ae22927e86efa275de5e6995cc9d5a161278371e",
+      "video_bytes": 316903,
+      "video_frames": 55,
+      "video_seconds": 1.83,
+      "provenance": {
+        "source_subdir": "s008",
+        "source_file": "Run1_stageii.npz",
+        "role": "continuous_run",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "accad_running/S009_Sprint1_weichai_f1_29.npz",
+      "qpos_sha256": "fc439b984c2527f037216f9071365331b5aa91826213bd5cd8d65ffa9974fdd1",
+      "qpos_bytes": 38509,
+      "source_qpos_sha256": "54fb1aca05645a8ffe27b4e5c7e527ecaa67ce882e9e86aba884e5d5673ba3ca",
+      "source_fps": 120.0,
+      "source_frames": 265,
+      "ase_filename": "S009_Sprint1_weichai_f1_29.npz",
+      "ase_sha256": "b3ad47bc70ab9251c16d4047fd63c3a3bc598977b12ed0121d484141ef2a3b40",
+      "video": "accad_running/S009_Sprint1_weichai_f1_29.mp4",
+      "video_sha256": "48869e1b19e4588f1254514283de188fe47d0db68ce518addc5d9f37d2eac337",
+      "video_bytes": 331548,
+      "video_frames": 67,
+      "video_seconds": 2.23,
+      "provenance": {
+        "source_subdir": "s009",
+        "source_file": "Sprint1_stageii.npz",
+        "role": "sprint",
+        "source_dataset": "AMASS / ACCAD"
+      }
+    },
+    {
+      "qpos": "cmu_locomotion/CMU_91_10_weichai_f1_29.npz",
+      "qpos_sha256": "157b60b5662fb5532fd219955b35eaa2f0b86797b4e3e526fab81dea527f73a8",
+      "qpos_bytes": 132912,
+      "source_qpos_sha256": "b74db011b3cd39fa5b7ee52b7258a70f7551c04877672f36cc9368fe2b20f14c",
+      "source_fps": 120.0,
+      "source_frames": 960,
+      "ase_filename": "cmu_capability_50hz/CMU_91_10_f1.npz",
+      "ase_sha256": "04c6902743049f7bad31e34a9d4efe6b91d55839e281ab6b0648ac375eb6a062",
+      "video": "cmu_locomotion/CMU_91_10_weichai_f1_29.mp4",
+      "video_sha256": "0fa95341ef6425e90e25586af568390dee91fe6b85799cc1ba46158f770a73dd",
+      "video_bytes": 585069,
+      "video_frames": 240,
+      "video_seconds": 8.0,
+      "provenance": {
+        "source_member": "CMU/91/91_10_stageii.npz",
+        "source_sha256": "1e663adeec6587a4a939698f04ef2fe302502436f3292f2672ff73bfda5f1509",
+        "source_fps": 120.0,
+        "group": "slow",
+        "start": 1012,
+        "end": 1972,
+        "description": "慢走风格片段",
+        "source_url": "https://amass.is.tue.mpg.de/",
+        "archive_sha256": "5a5207d1968740164b2487bdbeaf644046a63b09984ac2baaa72916a0b333df3",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "cmu_locomotion/CMU_91_27_weichai_f1_29.npz",
+      "qpos_sha256": "b62b7b56f59d24f819e5c41ad7bae00710a56d1b6d706ec989bfa1713a4c7ddc",
+      "qpos_bytes": 133055,
+      "source_qpos_sha256": "420490d3d5281c229e9764eefa0c2044dc4e733d85cbf4790287b3d1dab872f6",
+      "source_fps": 120.0,
+      "source_frames": 960,
+      "ase_filename": "cmu_capability_50hz/CMU_91_27_f1.npz",
+      "ase_sha256": "244f567b85717f23fc578da61e6a54af2ee99c4451128fdafb88b8d1c0e54371",
+      "video": "cmu_locomotion/CMU_91_27_weichai_f1_29.mp4",
+      "video_sha256": "ad45fb221e9dc8f277178fd8e75c690155459e4b7e4f0c720cd0c67e56255878",
+      "video_bytes": 640197,
+      "video_frames": 240,
+      "video_seconds": 8.0,
+      "provenance": {
+        "source_member": "CMU/91/91_27_stageii.npz",
+        "source_sha256": "b0ae8b41b7a24088eb5b91d102538ce2d6eca4bee66a16b8b6f7ff8ddaf3d60e",
+        "source_fps": 120.0,
+        "group": "slow",
+        "start": 1048,
+        "end": 2008,
+        "description": "另一段慢走风格",
+        "source_url": "https://amass.is.tue.mpg.de/",
+        "archive_sha256": "5a5207d1968740164b2487bdbeaf644046a63b09984ac2baaa72916a0b333df3",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "cmu_locomotion/CMU_82_08_weichai_f1_29.npz",
+      "qpos_sha256": "529bbde806357209f517d6d59ae686e7e2593fe457b7167fc3297c048b6fe18c",
+      "qpos_bytes": 233816,
+      "source_qpos_sha256": "ac81fdcab7ab8633fb82e297f92372df4851a0736b25706357ab009b77850f4b",
+      "source_fps": 120.0,
+      "source_frames": 1699,
+      "ase_filename": "cmu_capability_50hz/CMU_82_08_f1.npz",
+      "ase_sha256": "e47186a7ce6d29d62c55b6a64dcc5261983f160afb6c9a07c6bb9926e4a5386f",
+      "video": "cmu_locomotion/CMU_82_08_weichai_f1_29.mp4",
+      "video_sha256": "2415c560531f98154b77db03a3536fec41979f6f667b28dde1de6598621f550b",
+      "video_bytes": 797774,
+      "video_frames": 425,
+      "video_seconds": 14.16,
+      "provenance": {
+        "source_member": "CMU/82/82_08_stageii.npz",
+        "source_sha256": "3e85ec9f4658e72cef70555ccc82c4d5de65331290d2f1c1455ab1c9cf2dd41f",
+        "source_fps": 120.0,
+        "group": "start",
+        "start": 0,
+        "end": 1699,
+        "description": "站立后自然起步并行走",
+        "source_url": "https://amass.is.tue.mpg.de/",
+        "archive_sha256": "5a5207d1968740164b2487bdbeaf644046a63b09984ac2baaa72916a0b333df3",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "cmu_locomotion/CMU_82_14_weichai_f1_29.npz",
+      "qpos_sha256": "95f04483579aa1145001e08adc64ac773ed381f92b99e1d8731966eb0ba818ad",
+      "qpos_bytes": 126032,
+      "source_qpos_sha256": "5553b3babd467710a1906862d6309d8e2be20754dfd5057e5a9b61b99049efd3",
+      "source_fps": 120.0,
+      "source_frames": 907,
+      "ase_filename": "cmu_capability_50hz/CMU_82_14_f1.npz",
+      "ase_sha256": "938e71d69e06ff3670e8a8f95e5399eff56fbf8cfb6a6bddb51560e9683faa0b",
+      "video": "cmu_locomotion/CMU_82_14_weichai_f1_29.mp4",
+      "video_sha256": "ba98331c640c6568e9903a040c8a211f427d9c8846693548a77c9eb740f3d988",
+      "video_bytes": 639094,
+      "video_frames": 227,
+      "video_seconds": 7.56,
+      "provenance": {
+        "source_member": "CMU/82/82_14_stageii.npz",
+        "source_sha256": "79344326884bfca32d470f690592fc4369cf5acac3f0b8be877eaa7bc9415546",
+        "source_fps": 120.0,
+        "group": "decelerate",
+        "start": 0,
+        "end": 907,
+        "description": "行走后减速",
+        "source_url": "https://amass.is.tue.mpg.de/",
+        "archive_sha256": "5a5207d1968740164b2487bdbeaf644046a63b09984ac2baaa72916a0b333df3",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_slow_walk2_s4_weichai_f1_29.npz",
+      "qpos_sha256": "d816ecf975596fee4084257c859be1c8ee81dbf538238d61748540313247b3cd",
+      "qpos_bytes": 42995,
+      "source_qpos_sha256": "311c6a863a28c97be3b159d6b58a002f270da36872d604c3249c004c0416b6bf",
+      "source_fps": 30.0,
+      "source_frames": 300,
+      "ase_filename": "lafan_capability_50hz/LAFAN_slow_walk2_s4_f1.npz",
+      "ase_sha256": "65100f487d8a05d2fd20bd979e82fbb892baf9e9542255ef2b2427c33a422171",
+      "video": "lafan1_locomotion/LAFAN_slow_walk2_s4_weichai_f1_29.mp4",
+      "video_sha256": "be16206e04e107c1531fdf97c3ef376dcd0b67b84ca0e18fb35bb4dc5c9d7673",
+      "video_bytes": 702854,
+      "video_frames": 300,
+      "video_seconds": 10.0,
+      "provenance": {
+        "source_bvh": "walk2_subject4.bvh",
+        "source_sha256": "c5422fad8431ee55d11e71e06c7debc80bdb2746a4c13fd337c283717617a8ea",
+        "source_fps": 30,
+        "group": "slow",
+        "source_frame_start": 1350,
+        "source_frame_end_exclusive": 1650,
+        "source_url": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset",
+        "source_license": "CC BY-NC-ND 4.0",
+        "archive_sha256": "ea918082b500a5d158e9d3aa39039df04cd42e25f5c02fe8f7e88e8e9365a977",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_slow_walk1_s2_weichai_f1_29.npz",
+      "qpos_sha256": "c8e387a2df4525a963b074e02b84d6bafa4c6ecdd4007e66f506c15af8a91097",
+      "qpos_bytes": 35501,
+      "source_qpos_sha256": "e47648c3adda10f3e891ba3ebbd38f2d19a1b916b622568a295da8c708d300ea",
+      "source_fps": 30.0,
+      "source_frames": 240,
+      "ase_filename": "lafan_capability_50hz/LAFAN_slow_walk1_s2_f1.npz",
+      "ase_sha256": "4b0e5c77ca12fad89d14ddc7b07f47e0bddfaf430b0ed1a58df45530fe52d9c6",
+      "video": "lafan1_locomotion/LAFAN_slow_walk1_s2_weichai_f1_29.mp4",
+      "video_sha256": "275468b0d24fc7fd2379725440904b8409009f60248d1999a1a0998f1d1981f9",
+      "video_bytes": 723898,
+      "video_frames": 240,
+      "video_seconds": 8.0,
+      "provenance": {
+        "source_bvh": "walk1_subject2.bvh",
+        "source_sha256": "d6f910fa34c31e657ecedb4088cf140fdccb61c5a432633345ccf93933dfc083",
+        "source_fps": 30,
+        "group": "slow",
+        "source_frame_start": 90,
+        "source_frame_end_exclusive": 330,
+        "source_url": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset",
+        "source_license": "CC BY-NC-ND 4.0",
+        "archive_sha256": "ea918082b500a5d158e9d3aa39039df04cd42e25f5c02fe8f7e88e8e9365a977",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_slow_walk3_s3_weichai_f1_29.npz",
+      "qpos_sha256": "7fe7a2747b829da31f5acb5f5b8a85978939cfd20aa79b3e4db1a5ad5e353f66",
+      "qpos_bytes": 43181,
+      "source_qpos_sha256": "384279368070ff52328f0a34489fd30794cf5d297c25f680f776274577393a34",
+      "source_fps": 30.0,
+      "source_frames": 300,
+      "ase_filename": "lafan_capability_50hz/LAFAN_slow_walk3_s3_f1.npz",
+      "ase_sha256": "86e876119395245ec9e46328dc41b32a59cee3237550a7653d03607239a6020a",
+      "video": "lafan1_locomotion/LAFAN_slow_walk3_s3_weichai_f1_29.mp4",
+      "video_sha256": "b31fc22319670020aecfd1ba00bb185f0b635b615ef001015e41c73677af49a5",
+      "video_bytes": 792407,
+      "video_frames": 300,
+      "video_seconds": 10.0,
+      "provenance": {
+        "source_bvh": "walk3_subject3.bvh",
+        "source_sha256": "2bd2ca6c17a313dadb41ef8fad4a2dbee3b9288d5949334faac49ba3aa030d3f",
+        "source_fps": 30,
+        "group": "slow",
+        "source_frame_start": 2490,
+        "source_frame_end_exclusive": 2790,
+        "source_url": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset",
+        "source_license": "CC BY-NC-ND 4.0",
+        "archive_sha256": "ea918082b500a5d158e9d3aa39039df04cd42e25f5c02fe8f7e88e8e9365a977",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_pause_restart_walk3_s3_weichai_f1_29.npz",
+      "qpos_sha256": "96ce29c1287138ed0d33ab25d450c6dc09493602587ab2a79712b94978c9e867",
+      "qpos_bytes": 35425,
+      "source_qpos_sha256": "e1b5fc175e59fd7567c6eba580278384617805afb0d71bd1a491d07523de7b99",
+      "source_fps": 30.0,
+      "source_frames": 243,
+      "ase_filename": "lafan_capability_50hz/LAFAN_pause_restart_walk3_s3_f1.npz",
+      "ase_sha256": "e154cbae011728b9e7bec2a3607efb75c9bb3ce796801543b7bae5f27f75ddeb",
+      "video": "lafan1_locomotion/LAFAN_pause_restart_walk3_s3_weichai_f1_29.mp4",
+      "video_sha256": "4c0f5e4df252003321a84c018e56cad85ae28b167a8f366e160b132f99155459",
+      "video_bytes": 551170,
+      "video_frames": 243,
+      "video_seconds": 8.1,
+      "provenance": {
+        "source_bvh": "walk3_subject3.bvh",
+        "source_sha256": "2bd2ca6c17a313dadb41ef8fad4a2dbee3b9288d5949334faac49ba3aa030d3f",
+        "source_fps": 30,
+        "group": "pause_restart",
+        "source_frame_start": 481,
+        "source_frame_end_exclusive": 724,
+        "source_url": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset",
+        "source_license": "CC BY-NC-ND 4.0",
+        "archive_sha256": "ea918082b500a5d158e9d3aa39039df04cd42e25f5c02fe8f7e88e8e9365a977",
+        "config_sha256": "c6dc9ba1654be3f03a790cc51ff2f9a79b5564d77288ea26d3967c4cee38d3ce",
+        "umr_commit": "aa880baddb5dceaffb0897096bba7d10925abbfd"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_run_moderate_s2_weichai_f1_29.npz",
+      "qpos_sha256": "6ba7001edbe8d512707df5af96b802673c2a0dcb45a24c9cbcca3fc51a536861",
+      "qpos_bytes": 22982,
+      "qpos_fps": 50,
+      "qpos_frames": 149,
+      "qpos_origin": "archived_ase_tracking_reference",
+      "source_fps": 30,
+      "source_frames": 90,
+      "ase_filename": "LAFAN_run_moderate_s2_f1.npz",
+      "ase_sha256": "96035d937c0ef183c3743045f5fb0fd589909b7676c52a2544d8077b295a75eb",
+      "video": "lafan1_locomotion/LAFAN_run_moderate_s2_weichai_f1_29.mp4",
+      "video_sha256": "f29808e7f305b9d0a7a230d301e0d379a9842b13556646b3b35796a9f13ef1b1",
+      "video_bytes": 340457,
+      "video_frames": 89,
+      "video_seconds": 2.96,
+      "provenance": {
+        "source_bvh": "run1_subject2.bvh",
+        "source_frame_start": 3360,
+        "source_frame_end_exclusive": 3450,
+        "cropped_bvh_sha256": "7178629c2258d0c41740d5185f0096da9d43f12fd907016ca8fa0bf9e7c8fff4",
+        "source_license": "CC BY-NC-ND 4.0",
+        "role": "forward_run_moderate"
+      },
+      "verification": {
+        "joint_positions_and_velocities_exact": true,
+        "body_position_max_component_error_m": 4.76837158203125e-07,
+        "body_quaternion_max_component_error": 5.960464477539063e-08,
+        "new_30hz_retarget_joint_max_difference_rad": 0.18041184544563293,
+        "training_model_sha256": "5efc9308a5daa9bd2c30326fc4ff4f0a65421e3dedf3fce7c19e54f41a9cec81"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_run_fast_s4_weichai_f1_29.npz",
+      "qpos_sha256": "788a391e5c7321294cf35dfef85f2908ba74b42f24e20d3f3bd81e1fd93da909",
+      "qpos_bytes": 22990,
+      "qpos_fps": 50,
+      "qpos_frames": 149,
+      "qpos_origin": "archived_ase_tracking_reference",
+      "source_fps": 30,
+      "source_frames": 90,
+      "ase_filename": "LAFAN_run_fast_s4_f1.npz",
+      "ase_sha256": "70e5f46d745d90a7f424ad9eeb241c854115a4680275abf02b83bc1a5835850c",
+      "video": "lafan1_locomotion/LAFAN_run_fast_s4_weichai_f1_29.mp4",
+      "video_sha256": "efd7359b16363616df92a8933e5d525e77dbe8d19b23c83a600c94727f480c85",
+      "video_bytes": 364059,
+      "video_frames": 89,
+      "video_seconds": 2.96,
+      "provenance": {
+        "source_bvh": "run2_subject4.bvh",
+        "source_frame_start": 2485,
+        "source_frame_end_exclusive": 2575,
+        "cropped_bvh_sha256": "bdb3ba49c3d6272dea8651ba62496ffc6ad021b51ba4158e1a83f1593cc0241e",
+        "source_license": "CC BY-NC-ND 4.0",
+        "role": "forward_run_fast"
+      },
+      "verification": {
+        "joint_positions_and_velocities_exact": true,
+        "body_position_max_component_error_m": 4.76837158203125e-07,
+        "body_quaternion_max_component_error": 5.960464477539063e-08,
+        "new_30hz_retarget_joint_max_difference_rad": 0.10294562578201294,
+        "training_model_sha256": "5efc9308a5daa9bd2c30326fc4ff4f0a65421e3dedf3fce7c19e54f41a9cec81"
+      }
+    },
+    {
+      "qpos": "lafan1_locomotion/LAFAN_walk_s1_weichai_f1_29.npz",
+      "qpos_sha256": "ea1c632c9a9ee9f62a33dbb56712bbcf4e445b97f1e316f20f9d76d66e5f03a3",
+      "qpos_bytes": 57257,
+      "qpos_fps": 50,
+      "qpos_frames": 399,
+      "qpos_origin": "archived_ase_tracking_reference",
+      "source_fps": 30,
+      "source_frames": 240,
+      "ase_filename": "LAFAN_walk_s1_f1.npz",
+      "ase_sha256": "884713e29ebf7bb59317b5d7cc2d4a277dc8cdb367e0a8be625825b0cf61f0f9",
+      "video": "lafan1_locomotion/LAFAN_walk_s1_weichai_f1_29.mp4",
+      "video_sha256": "d01d89c5b6ebfc19d83c0d561d700f931a10bcd9eaba007c6986e4c15ebf02fe",
+      "video_bytes": 602508,
+      "video_frames": 239,
+      "video_seconds": 7.96,
+      "provenance": {
+        "source_bvh": "walk1_subject1.bvh",
+        "source_frame_start": 6020,
+        "source_frame_end_exclusive": 6260,
+        "cropped_bvh_sha256": "4b6187fbcfc1589e11a59d6a75efa4645a3cc5948e2853b1af9a8a4009661326",
+        "source_license": "CC BY-NC-ND 4.0",
+        "role": "forward_walk"
+      },
+      "verification": {
+        "joint_positions_and_velocities_exact": true,
+        "body_position_max_component_error_m": 4.76837158203125e-07,
+        "body_quaternion_max_component_error": 5.960464477539063e-08,
+        "new_30hz_retarget_joint_max_difference_rad": 0.10822837054729462,
+        "training_model_sha256": "5efc9308a5daa9bd2c30326fc4ff4f0a65421e3dedf3fce7c19e54f41a9cec81"
+      }
+    }
+  ],
+  "ase_profiles": {
+    "7.0": {
+      "ase_manifest": "dataset_f1.yaml",
+      "ase_manifest_sha256": "350cbf3663a14c7601ec0dad9b96ba0052b802d15d2cef0857e8b842c3a331c0",
+      "motions": [
+        {
+          "ase_file": "A1_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_general/A1_stand_weichai_f1_29.npz",
+          "weight": 0.2
+        },
+        {
+          "ase_file": "A2_sway_weichai_f1_29.npz",
+          "umr_qpos": "accad_general/A2_sway_weichai_f1_29.npz",
+          "weight": 0.2
+        },
+        {
+          "ase_file": "B1_stand_to_walk_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B1_stand_to_walk_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "B2_walk_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B2_walk_to_stand_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "B2t2_walk_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B2_walk_to_stand_t2_weichai_f1_29.npz",
+          "weight": 0.4
+        },
+        {
+          "ase_file": "B3_walk1_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B3_walk1_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "B4_stand_to_walk_back_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B4_stand_to_walk_back_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "B5_walk_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B5_walk_backwards_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "C2_Run_to_stand_f1.npz",
+          "umr_qpos": "accad_running/C2_Run_to_stand_f1.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "C3_Run_f1.npz",
+          "umr_qpos": "accad_running/C3_Run_f1.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "C4_Run_to_walk_f1.npz",
+          "umr_qpos": "accad_running/C4_Run_to_walk_f1.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "C5_Walk_to_run_f1.npz",
+          "umr_qpos": "accad_running/C5_Walk_to_run_f1.npz",
+          "weight": 0.7
+        },
+        {
+          "ase_file": "C6_stand_to_run_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/C6_stand_to_run_backwards_weichai_f1_29.npz",
+          "weight": 0.4
+        },
+        {
+          "ase_file": "C7_run_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/C7_run_backwards_weichai_f1_29.npz",
+          "weight": 0.4
+        },
+        {
+          "ase_file": "M2_C1_stand_to_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C1_stand_to_run_weichai_f1_29.npz",
+          "weight": 0.6
+        },
+        {
+          "ase_file": "M2_C3_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C3_run_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "M2_C4_run_to_walk_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C4_run_to_walk_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "M2_C5_walk_to_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C5_walk_to_run_weichai_f1_29.npz",
+          "weight": 0.7
+        },
+        {
+          "ase_file": "S007_QkWalk1_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/S007_QkWalk1_weichai_f1_29.npz",
+          "weight": 0.6
+        },
+        {
+          "ase_file": "S008_Run1_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/S008_Run1_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "S009_Sprint1_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/S009_Sprint1_weichai_f1_29.npz",
+          "weight": 0.8
+        },
+        {
+          "ase_file": "LAFAN_run_moderate_s2_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_run_moderate_s2_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "LAFAN_run_fast_s4_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_run_fast_s4_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "LAFAN_walk_s1_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_walk_s1_weichai_f1_29.npz",
+          "weight": 1.0
+        }
+      ]
+    },
+    "7.1": {
+      "ase_manifest": "dataset_f1_stop_data.yaml",
+      "ase_manifest_sha256": "b23d1f12c39c47d488105952e46302d6f9770616819a1fc4144c6ff831e40499",
+      "motions": [
+        {
+          "ase_file": "A1_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_general/A1_stand_weichai_f1_29.npz",
+          "weight": 0.05
+        },
+        {
+          "ase_file": "A2_sway_weichai_f1_29.npz",
+          "umr_qpos": "accad_general/A2_sway_weichai_f1_29.npz",
+          "weight": 0.008633093525
+        },
+        {
+          "ase_file": "B1_stand_to_walk_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B1_stand_to_walk_weichai_f1_29.npz",
+          "weight": 0.021582733813
+        },
+        {
+          "ase_file": "B2_walk_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B2_walk_to_stand_weichai_f1_29.npz",
+          "weight": 0.065789473684
+        },
+        {
+          "ase_file": "B2t2_walk_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B2_walk_to_stand_t2_weichai_f1_29.npz",
+          "weight": 0.052631578947
+        },
+        {
+          "ase_file": "B3_walk1_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B3_walk1_weichai_f1_29.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "B4_stand_to_walk_back_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B4_stand_to_walk_back_weichai_f1_29.npz",
+          "weight": 0.021582733813
+        },
+        {
+          "ase_file": "B5_walk_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B5_walk_backwards_weichai_f1_29.npz",
+          "weight": 0.021582733813
+        },
+        {
+          "ase_file": "C2_Run_to_stand_f1.npz",
+          "umr_qpos": "accad_running/C2_Run_to_stand_f1.npz",
+          "weight": 0.065789473684
+        },
+        {
+          "ase_file": "C3_Run_f1.npz",
+          "umr_qpos": "accad_running/C3_Run_f1.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "C4_Run_to_walk_f1.npz",
+          "umr_qpos": "accad_running/C4_Run_to_walk_f1.npz",
+          "weight": 0.021582733813
+        },
+        {
+          "ase_file": "C5_Walk_to_run_f1.npz",
+          "umr_qpos": "accad_running/C5_Walk_to_run_f1.npz",
+          "weight": 0.030215827338
+        },
+        {
+          "ase_file": "C6_stand_to_run_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/C6_stand_to_run_backwards_weichai_f1_29.npz",
+          "weight": 0.01726618705
+        },
+        {
+          "ase_file": "C7_run_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/C7_run_backwards_weichai_f1_29.npz",
+          "weight": 0.01726618705
+        },
+        {
+          "ase_file": "M2_C1_stand_to_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C1_stand_to_run_weichai_f1_29.npz",
+          "weight": 0.025899280576
+        },
+        {
+          "ase_file": "M2_C3_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C3_run_weichai_f1_29.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "M2_C4_run_to_walk_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C4_run_to_walk_weichai_f1_29.npz",
+          "weight": 0.021582733813
+        },
+        {
+          "ase_file": "M2_C5_walk_to_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C5_walk_to_run_weichai_f1_29.npz",
+          "weight": 0.030215827338
+        },
+        {
+          "ase_file": "S007_QkWalk1_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/S007_QkWalk1_weichai_f1_29.npz",
+          "weight": 0.025899280576
+        },
+        {
+          "ase_file": "S008_Run1_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/S008_Run1_weichai_f1_29.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "S009_Sprint1_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/S009_Sprint1_weichai_f1_29.npz",
+          "weight": 0.034532374101
+        },
+        {
+          "ase_file": "LAFAN_run_moderate_s2_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_run_moderate_s2_weichai_f1_29.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "LAFAN_run_fast_s4_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_run_fast_s4_weichai_f1_29.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "LAFAN_walk_s1_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_walk_s1_weichai_f1_29.npz",
+          "weight": 0.043165467626
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Female1_B10_walk_turn_left_45_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B10_walk_turn_left_45_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Female1_B11_walk_turn_left_135_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B11_walk_turn_left_135_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Female1_B14_walk_turn_right_135_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B14_walk_turn_right_135_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Female1_B15_walk_turn_around_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B15_walk_turn_around_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Female1_B6_walk_backwards_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B6_walk_backwards_to_stand_weichai_f1_29.npz",
+          "weight": 0.065789473684
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Female1_B9_walk_turn_left_90_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B9_walk_turn_left_90_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Male2_B10_turn_left_45_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Male2_B10_turn_left_45_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Male2_B11_turn_left_135_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Male2_B11_turn_left_135_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Male2_B14_turn_right_45_t2_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Male2_B14_turn_right_45_t2_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Male2_B14_turn_right_45_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Male2_B14_turn_right_45_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Male2_B4_stand_to_walk_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Male2_B4_stand_to_walk_backwards_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        },
+        {
+          "ase_file": "accad_walking_extra_50hz/Male2_B9_turn_left_90_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Male2_B9_turn_left_90_weichai_f1_29.npz",
+          "weight": 0.009090909091
+        }
+      ]
+    },
+    "7.2": {
+      "ase_manifest": "dataset_f1_7_2.yaml",
+      "ase_manifest_sha256": "90e50b2dadb5b2c51fba9b946fd8c02a103c78f4c50ed1f4fb7bf986e2b63d36",
+      "motions": [
+        {
+          "ase_file": "A1_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_general/A1_stand_weichai_f1_29.npz",
+          "weight": 0.2
+        },
+        {
+          "ase_file": "A2_sway_weichai_f1_29.npz",
+          "umr_qpos": "accad_general/A2_sway_weichai_f1_29.npz",
+          "weight": 0.2
+        },
+        {
+          "ase_file": "B1_stand_to_walk_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B1_stand_to_walk_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "B2_walk_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B2_walk_to_stand_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "B2t2_walk_to_stand_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B2_walk_to_stand_t2_weichai_f1_29.npz",
+          "weight": 0.4
+        },
+        {
+          "ase_file": "B3_walk1_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B3_walk1_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "B4_stand_to_walk_back_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/B4_stand_to_walk_back_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "B5_walk_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking_extra/Female1_B5_walk_backwards_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "C2_Run_to_stand_f1.npz",
+          "umr_qpos": "accad_running/C2_Run_to_stand_f1.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "C3_Run_f1.npz",
+          "umr_qpos": "accad_running/C3_Run_f1.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "C4_Run_to_walk_f1.npz",
+          "umr_qpos": "accad_running/C4_Run_to_walk_f1.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "C5_Walk_to_run_f1.npz",
+          "umr_qpos": "accad_running/C5_Walk_to_run_f1.npz",
+          "weight": 0.7
+        },
+        {
+          "ase_file": "C6_stand_to_run_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/C6_stand_to_run_backwards_weichai_f1_29.npz",
+          "weight": 0.4
+        },
+        {
+          "ase_file": "C7_run_backwards_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/C7_run_backwards_weichai_f1_29.npz",
+          "weight": 0.4
+        },
+        {
+          "ase_file": "M2_C1_stand_to_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C1_stand_to_run_weichai_f1_29.npz",
+          "weight": 0.6
+        },
+        {
+          "ase_file": "M2_C3_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C3_run_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "M2_C4_run_to_walk_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C4_run_to_walk_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "M2_C5_walk_to_run_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/M2_C5_walk_to_run_weichai_f1_29.npz",
+          "weight": 0.7
+        },
+        {
+          "ase_file": "S007_QkWalk1_weichai_f1_29.npz",
+          "umr_qpos": "accad_walking/S007_QkWalk1_weichai_f1_29.npz",
+          "weight": 0.6
+        },
+        {
+          "ase_file": "S008_Run1_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/S008_Run1_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "S009_Sprint1_weichai_f1_29.npz",
+          "umr_qpos": "accad_running/S009_Sprint1_weichai_f1_29.npz",
+          "weight": 0.8
+        },
+        {
+          "ase_file": "LAFAN_run_moderate_s2_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_run_moderate_s2_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "LAFAN_run_fast_s4_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_run_fast_s4_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "LAFAN_walk_s1_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_walk_s1_weichai_f1_29.npz",
+          "weight": 1.0
+        },
+        {
+          "ase_file": "cmu_capability_50hz/CMU_91_10_f1.npz",
+          "umr_qpos": "cmu_locomotion/CMU_91_10_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "cmu_capability_50hz/CMU_91_27_f1.npz",
+          "umr_qpos": "cmu_locomotion/CMU_91_27_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "cmu_capability_50hz/CMU_82_08_f1.npz",
+          "umr_qpos": "cmu_locomotion/CMU_82_08_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "cmu_capability_50hz/CMU_82_14_f1.npz",
+          "umr_qpos": "cmu_locomotion/CMU_82_14_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "lafan_capability_50hz/LAFAN_slow_walk2_s4_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_slow_walk2_s4_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "lafan_capability_50hz/LAFAN_slow_walk1_s2_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_slow_walk1_s2_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "lafan_capability_50hz/LAFAN_slow_walk3_s3_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_slow_walk3_s3_weichai_f1_29.npz",
+          "weight": 0.5
+        },
+        {
+          "ase_file": "lafan_capability_50hz/LAFAN_pause_restart_walk3_s3_f1.npz",
+          "umr_qpos": "lafan1_locomotion/LAFAN_pause_restart_walk3_s3_weichai_f1_29.npz",
+          "weight": 0.5
+        }
+      ]
+    }
+  }
+}

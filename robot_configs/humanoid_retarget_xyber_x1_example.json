@@ -1,0 +1,38 @@
+{
+  "robot": {
+    "name": "xyber_x1",
+    "xml": "../assets/F1/F1_resource/mjcf/x1_29dof_raw.xml",
+    "point_cloud_center": "body:lumbar_yaw_link",
+    "tpose_qpos": {
+      "lumbar_yaw_joint": 0,
+      "lumbar_roll_joint": 0,
+      "lumbar_pitch_joint": 0,
+      "left_shoulder_pitch_joint": 0,
+      "left_shoulder_roll_joint": -1.57,
+      "left_shoulder_yaw_joint": 0,
+      "left_elbow_pitch_joint": 0,
+      "left_elbow_yaw_joint": 0,
+      "left_wrist_pitch_joint": 0,
+      "left_wrist_roll_joint": 0,
+      "right_shoulder_pitch_joint": 0,
+      "right_shoulder_roll_joint": -1.57,
+      "right_shoulder_yaw_joint": 0,
+      "right_elbow_pitch_joint": 0,
+      "right_elbow_yaw_joint": 0,
+      "right_wrist_pitch_joint": 0,
+      "right_wrist_roll_joint": 0,
+      "left_hip_pitch_joint": 0,
+      "left_hip_roll_joint": 0,
+      "left_hip_yaw_joint": 0,
+      "left_knee_pitch_joint": 0,
+      "left_ankle_pitch_joint": 0,
+      "left_ankle_roll_joint": 0,
+      "right_hip_pitch_joint": 0,
+      "right_hip_roll_joint": 0,
+      "right_hip_yaw_joint": 0,
+      "right_knee_pitch_joint": 0,
+      "right_ankle_pitch_joint": 0,
+      "right_ankle_roll_joint": 0
+    }
+  }
+}

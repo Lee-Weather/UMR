@@ -1,0 +1,16 @@
+[
+  {
+    "source": "hiphi",
+    "desc": "HiPHI 起身",
+    "data": "sample_data/hiphi/data/Getting_up/get_up/Getting_up-get_up_0004/motion_actor_smplx.npz",
+    "out": "umr_data\\F1\\hiphi_getting_up\\Getting_up-get_up_0004_smplx_weichai_f1_29.npz",
+    "retarget": "blocked-lfs-pointer"
+  },
+  {
+    "source": "kick",
+    "desc": "OmniContact 射门",
+    "data": "sample_data/omnicontact/soccer/case3_kick_right/20260330000586_1_1775269234",
+    "out": "umr_data\\F1\\omnicontact_kick\\case3_kick_right_smplx_weichai_f1_29.npz",
+    "retarget": "skipped"
+  }
+]
