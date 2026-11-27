@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "robot_xml": "assets/F1.5/weichai_f1_29/mjcf/weichai_f1_29.xml",
+  "robot_xml_sha256": "9cd1e55cdfef13230f95c6b5581dfe80b9e87182910a6ab2b27323939ce2608d",
+  "video": {
+    "renderer": "MuJoCo 3.15.0 mujoco.Renderer",
+    "fps": 30.0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "motion_count": 4,
+  "status": "reference_candidates",
+  "motions": [
+    {
+      "file": "Female1_B22_side_left_weichai_f1_29.npz",
+      "qpos_sha256": "316c658b0f583836553a8c457117bc3ecadd0f82ef3c808a9e79db7fcf8b9293",
+      "qpos_bytes": 152380,
+      "qpos_fps": 120.0,
+      "qpos_frames": 1103,
+      "source_dataset": "AMASS / ACCAD",
+      "source_member": null,
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "side_left",
+      "video": "Female1_B22_side_left_weichai_f1_29.mp4",
+      "video_sha256": "3a6cd8a4440e24ba38cfe83843db6c10cc41fd4b7c9617b2706ad4e1b767e2eb",
+      "video_bytes": 226804,
+      "video_frames": 276,
+      "video_seconds": 9.2,
+      "status": "deferred",
+      "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+      "deferred_reason": "foot_near_ground_below_50_percent"
+    },
+    {
+      "file": "Female1_B23_side_right_weichai_f1_29.npz",
+      "qpos_sha256": "6f21064ce5ef8343bb4150c0014654c46fa2042013235bc1789997d4485f779c",
+      "qpos_bytes": 138350,
+      "qpos_fps": 120.0,
+      "qpos_frames": 999,
+      "source_dataset": "AMASS / ACCAD",
+      "source_member": null,
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "side_right",
+      "video": "Female1_B23_side_right_weichai_f1_29.mp4",
+      "video_sha256": "6a5a693ade41d90be40a0cfd1a1664b3269f641b7f6e735924ba06915fb2aafc",
+      "video_bytes": 200901,
+      "video_frames": 250,
+      "video_seconds": 8.33,
+      "status": "deferred",
+      "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+      "deferred_reason": "foot_near_ground_below_50_percent"
+    },
+    {
+      "file": "Female1_C9_back_run_turn_forward_weichai_f1_29.npz",
+      "qpos_sha256": "dac77f87604990670257fd81c9d454a55432d5757e81d1971d63280d3c2c1654",
+      "qpos_bytes": 38952,
+      "qpos_fps": 120.0,
+      "qpos_frames": 275,
+      "source_dataset": "AMASS / ACCAD",
+      "source_member": null,
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "stop_reverse",
+      "video": "Female1_C9_back_run_turn_forward_weichai_f1_29.mp4",
+      "video_sha256": "c84fd8b30be945b350a03a95db723578dbe6550220ee07be9b25f2e9864ba2e4",
+      "video_bytes": 93026,
+      "video_frames": 69,
+      "video_seconds": 2.3,
+      "status": "deferred",
+      "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+      "deferred_reason": "foot_near_ground_below_50_percent"
+    },
+    {
+      "file": "Male2_C8_back_run_to_stand_weichai_f1_29.npz",
+      "qpos_sha256": "1bd64e5d87ba6f1ad7ff7165d3f9e81fa34d210ccb3ab3953e5432587b2bef23",
+      "qpos_bytes": 68381,
+      "qpos_fps": 120.0,
+      "qpos_frames": 481,
+      "source_dataset": "AMASS / ACCAD",
+      "source_member": null,
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "stop_reverse",
+      "video": "Male2_C8_back_run_to_stand_weichai_f1_29.mp4",
+      "video_sha256": "5138f893617dbbf9d2c6475cf242d23c8d6d13f9ac9169f6523516f2e3ea5aa2",
+      "video_bytes": 112334,
+      "video_frames": 121,
+      "video_seconds": 4.03,
+      "status": "deferred",
+      "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+      "deferred_reason": "foot_near_ground_below_50_percent"
+    }
+  ]
+}

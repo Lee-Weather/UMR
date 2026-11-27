@@ -53,9 +53,7 @@ smpl/SMPLX_FEMALE.pkl     ← 可选
 另外还有若干**源数据专用**的对应关系（HiPHI / OmniContact / NR / 角色动画），
 因为不同来源的 SMPL-X `betas` 不同 → 模板不同 → 必须各自一套。
 
-> 同目录下的 `checkpoint-final.pt`（90 MB/个）**没有纳入 LFS 也未跟踪**，且**仓库里没有任何代码读取它**
-> （训练脚本只写不读，没有 `--resume`）。删除不影响重定向与 `--stage all` 复用，只在"要拿权重做对比
-> 或不想重训就重建 slots"时才有意义。
+> [G1 的 `checkpoint-final.pt`](czy/g1/correspondence/trained/checkpoint-final.pt) 以普通 Git 文件保存，大小约 90.26 MiB。重定向及 `--stage all` 复用的是导出的 `correspondence_slots_final.npz`。
 
 ## 快速开始
 
@@ -104,16 +102,17 @@ python scripts/visualize_robot_retarget_result.py \
 
 ## 重定向结果
 
-共 **78 条 / 96,941 帧**，按机器人分类存放在 `umr_data/X1`、`umr_data/F1`、`umr_data/G1`：
+共 **172 条 / 145,168 帧**，按机器人分类存放在 `umr_data/X1`、`umr_data/F1`、`umr_data/G1`。
 
 | 目录 | 条数 | 帧数 | 内容 |
 |---|---|---|---|
 | `umr_data/X1/` | 13 | 25,937 | ACCAD 走/跑 + HiPHI 起身 + LAFAN1 舞蹈 + NR 坐姿 + OmniContact 射门 + 回旋踢 |
-| `umr_data/F1/` | 35 | 43,855 | ACCAD 走（4 + 补充 24）/ 跑 + HiPHI + LAFAN1 + OmniContact |
+| `umr_data/F1/` | 129 | 92,082 | 行走、跑步、转向、侧移和恢复等动作，含 4 条 ACCAD 暂缓候选 |
 | `umr_data/G1/` | 30 | 27,149 | ACCAD 走（24 条与 F1 逐条对齐 + B1/B3）/ 跑 + 跳跃步 |
 
-每条结果 = 一个 `*.npz`（轨迹，12 个字段）+ 同名 `*.mp4`（回放录像）。
-完整清单、逐条帧数、命名约定见 **[umr_data/README.md](umr_data/README.md)**；
+2026-11-27 补充 49 条 F1 轨迹，均附同名回放。 [F1 补充交付说明](umr_data/F1/README_capability_delivery_20261127.md)
+
+完整清单、轨迹格式和命名约定见 **[umr_data/README.md](umr_data/README.md)**。
 G1 的质量校验与跨机器人对比见 **[umr_data/G1/README.md](umr_data/G1/README.md)**。
 
 ## 训练对应关系模型
@@ -163,7 +162,7 @@ batch_f1_hoi.py          ← F1 HiPHI 起身 + OmniContact 射门
 
 | 文档 | 内容 |
 |---|---|
-| [umr_data/README.md](umr_data/README.md) | 全部 78 条结果的清单、格式、命名约定、脚本对应关系 |
+| [umr_data/README.md](umr_data/README.md) | 全部重定向结果的清单、格式、命名约定和脚本索引 |
 | [umr_data/G1/README.md](umr_data/G1/README.md) | G1 数据详情：质量校验、跳跃步腾空相、与 F1 的跨机器人对比 |
 | [czy/g1/README.md](czy/g1/README.md) | G1 模型与对应关系；为什么要单独做一个 `g1_29dof_umr.xml` |
 | [czy/exp/pipeline.md](czy/exp/pipeline.md) | UMR 完整流水线说明 |
@@ -171,9 +170,8 @@ batch_f1_hoi.py          ← F1 HiPHI 起身 + OmniContact 射门
 
 ## 体积与入库注意
 
-- `*.npz` 由 `.gitattributes` 纳入 Git LFS，`.mp4` **没有** —— 录像会直接进 git 历史。
-- `umr_data/` 合计约 707 MB，其中 mp4 约 690 MB。若要入库建议先把 `*.mp4` 也并入 LFS，
-  或只保留 npz（轨迹本身每条仅 30–230 KB）。
+- GitLab 通过 Git LFS 跟踪 `.npz`。GitHub 发布版用普通 Git 文件存放已重定向的轨迹，省去源数据、SMPL-X 模型及其余 LFS 对象。
+- 回放视频 `.mp4` 在两个远端都以普通 Git 文件存储。
 - `czy/html/UMR_pipeline_组内分享.html` 是 12.8 MB 单文件（base64 内嵌），每次重新导出都会产生新 blob。
 
 ## 引用

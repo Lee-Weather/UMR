@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "motion_count": 7,
+  "note": "Additions only; existing LAFAN clips and _ase_locomotion_manifest.json unchanged.",
+  "motions": [
+    {
+      "file": "LAFAN_pause_restart_multiple_s3_weichai_f1_29.npz",
+      "qpos_sha256": "323b49010c18ff8b2d1cf578fe74e08356367b21d0bc655a39097c1a1f1c3d98",
+      "qpos_bytes": 36086,
+      "qpos_fps": 30.0,
+      "qpos_frames": 244,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "multipleActions1_subject3.bvh",
+      "selection": {
+        "start": 2920,
+        "end": 3164
+      },
+      "group": "pause_restart",
+      "video": "LAFAN_pause_restart_multiple_s3_weichai_f1_29.mp4",
+      "video_sha256": "d8a0f3006ac5fd7208be852c3ae80be574ce8bcd9368b1d8815e0f4d0e9dbfb8",
+      "video_bytes": 169896,
+      "video_frames": 244,
+      "video_seconds": 8.13,
+      "status": "kinematic_reference",
+      "note": ""
+    },
+    {
+      "file": "LAFAN_slow_arc_left_s1_weichai_f1_29.npz",
+      "qpos_sha256": "b0939bc6da877b90a3f8da954f4970d94b2429de15fdf4fce251db8b79fed776",
+      "qpos_bytes": 23687,
+      "qpos_fps": 30.0,
+      "qpos_frames": 151,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "walk1_subject1.bvh",
+      "selection": {
+        "start": 5868,
+        "end": 6019
+      },
+      "group": "slow_arc_left",
+      "video": "LAFAN_slow_arc_left_s1_weichai_f1_29.mp4",
+      "video_sha256": "56d3e02cb303478f4490930f41ab7830d279de27eb177a3bcb915b01a531a311",
+      "video_bytes": 112473,
+      "video_frames": 151,
+      "video_seconds": 5.03,
+      "status": "kinematic_reference",
+      "note": ""
+    },
+    {
+      "file": "LAFAN_slow_arc_left_s3_weichai_f1_29.npz",
+      "qpos_sha256": "814dbbfc6c6917aea680f5962b167367340a3a14c63ede39ae188eb9cada047e",
+      "qpos_bytes": 21191,
+      "qpos_fps": 30.0,
+      "qpos_frames": 151,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "walk3_subject3.bvh",
+      "selection": {
+        "start": 5621,
+        "end": 5772
+      },
+      "group": "slow_arc_left",
+      "video": "LAFAN_slow_arc_left_s3_weichai_f1_29.mp4",
+      "video_sha256": "2ef19477ba90ee1b15b86dba39ad8112621ba9acf2913f3fb2d3c44c91900ea1",
+      "video_bytes": 97690,
+      "video_frames": 151,
+      "video_seconds": 5.03,
+      "status": "kinematic_reference",
+      "note": ""
+    },
+    {
+      "file": "LAFAN_slow_arc_left_s4_weichai_f1_29.npz",
+      "qpos_sha256": "73b3ae6af23edb7458c00f801d7c296a8c02da3848649020fbc64bdaa6ae09fb",
+      "qpos_bytes": 23500,
+      "qpos_fps": 30.0,
+      "qpos_frames": 151,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "walk2_subject4.bvh",
+      "selection": {
+        "start": 2941,
+        "end": 3092
+      },
+      "group": "slow_arc_left",
+      "video": "LAFAN_slow_arc_left_s4_weichai_f1_29.mp4",
+      "video_sha256": "39fab4cee23d30b8b2661660ff79c754855f37f3cf665a17b1ee95efea96bd7c",
+      "video_bytes": 109459,
+      "video_frames": 151,
+      "video_seconds": 5.03,
+      "status": "kinematic_reference",
+      "note": ""
+    },
+    {
+      "file": "LAFAN_slow_arc_right_s1_weichai_f1_29.npz",
+      "qpos_sha256": "c69884a62062e4ced821c5b3affb9ccef7b0944f6094900e216f26744cc7d055",
+      "qpos_bytes": 23504,
+      "qpos_fps": 30.0,
+      "qpos_frames": 151,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "walk3_subject1.bvh",
+      "selection": {
+        "start": 2363,
+        "end": 2514
+      },
+      "group": "slow_arc_right",
+      "video": "LAFAN_slow_arc_right_s1_weichai_f1_29.mp4",
+      "video_sha256": "1dfad6e06b9702c979b190541e8f0bccc86e6924c40900c72973b857d0c35b90",
+      "video_bytes": 132702,
+      "video_frames": 151,
+      "video_seconds": 5.03,
+      "status": "kinematic_reference",
+      "note": ""
+    },
+    {
+      "file": "LAFAN_slow_arc_right_s3_weichai_f1_29.npz",
+      "qpos_sha256": "cf5cdcc79d06bca8a42d8bf4e94ccd06a2e3b1c0edfac673e32212c75bf52fa7",
+      "qpos_bytes": 22873,
+      "qpos_fps": 30.0,
+      "qpos_frames": 151,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "walk3_subject3.bvh",
+      "selection": {
+        "start": 3983,
+        "end": 4134
+      },
+      "group": "slow_arc_right",
+      "video": "LAFAN_slow_arc_right_s3_weichai_f1_29.mp4",
+      "video_sha256": "ac766f59f2a8cf5f2357e71730a50505d5ea763eb38cbb235e555553a93e3d2a",
+      "video_bytes": 87758,
+      "video_frames": 151,
+      "video_seconds": 5.03,
+      "status": "kinematic_reference",
+      "note": ""
+    },
+    {
+      "file": "LAFAN_slow_walk1_s1_weichai_f1_29.npz",
+      "qpos_sha256": "20c3e97325fa3f26a45df86d30f87fdf58244c936a6b70bf77cfaf09b38447d7",
+      "qpos_bytes": 43801,
+      "qpos_fps": 30.0,
+      "qpos_frames": 300,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "walk1_subject1.bvh",
+      "selection": {
+        "start": 5400,
+        "end": 5700
+      },
+      "group": "slow",
+      "video": "LAFAN_slow_walk1_s1_weichai_f1_29.mp4",
+      "video_sha256": "182eb7e7c9f20d791d9ed25382cfb8ff9c5928719736f74d291f9d0658432a31",
+      "video_bytes": 187286,
+      "video_frames": 300,
+      "video_seconds": 10.0,
+      "status": "kinematic_reference",
+      "note": ""
+    }
+  ]
+}

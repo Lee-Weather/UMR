@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "robot_xml": "assets/F1.5/weichai_f1_29/mjcf/weichai_f1_29.xml",
+  "robot_xml_sha256": "9cd1e55cdfef13230f95c6b5581dfe80b9e87182910a6ab2b27323939ce2608d",
+  "video": {
+    "renderer": "MuJoCo 3.15.0 mujoco.Renderer",
+    "fps": 30.0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "motion_count": 8,
+  "status": "kinematic_reference",
+  "motions": [
+    {
+      "file": "HDM05_tr01_pivot_left_weichai_f1_29.npz",
+      "qpos_sha256": "4a5495fb9fd0725de556dfe7d62391c8c7e2988d8f36dac5aff28eaa8754617c",
+      "qpos_bytes": 41823,
+      "qpos_fps": 120.0,
+      "qpos_frames": 284,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_tr_01-01_01_120_stageii.npz",
+      "selection": {
+        "start": 5922,
+        "end": 6206
+      },
+      "group": "pivot_left",
+      "video": "HDM05_tr01_pivot_left_weichai_f1_29.mp4",
+      "video_sha256": "ddeb5bafe48efcde7b91f841eaad6c6825663f9edbc5283142162b37ffc935f8",
+      "video_bytes": 54659,
+      "video_frames": 71,
+      "video_seconds": 2.37,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_bk02_slow_forward_weichai_f1_29.npz",
+      "qpos_sha256": "c970ad4f3e13cd37e71e74b4aa4b060b5294e2c626f04d2ab0f7fa95e14ca983",
+      "qpos_bytes": 45045,
+      "qpos_fps": 120.0,
+      "qpos_frames": 313,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_bk_01-01_02_120_stageii.npz",
+      "selection": {
+        "start": 7962,
+        "end": 8275
+      },
+      "group": "slow_forward",
+      "video": "HDM05_bk02_slow_forward_weichai_f1_29.mp4",
+      "video_sha256": "4b5755f44c8c916b4cffb984d6faf0154f435982d398ef94c20439cad354f16d",
+      "video_bytes": 54590,
+      "video_frames": 79,
+      "video_seconds": 2.63,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_bk02_slow_back_weichai_f1_29.npz",
+      "qpos_sha256": "3122782888a5b2a373d364bfc43eb220c6746ca98b9074c6f1e7dd0dbb5472dd",
+      "qpos_bytes": 44405,
+      "qpos_fps": 120.0,
+      "qpos_frames": 304,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_bk_01-01_02_120_stageii.npz",
+      "selection": {
+        "start": 2106,
+        "end": 2410
+      },
+      "group": "slow_back",
+      "video": "HDM05_bk02_slow_back_weichai_f1_29.mp4",
+      "video_sha256": "7e4ea37281a2ebac44912338a3170966ce3bc9139cd1b4339442990fa8b6d4eb",
+      "video_bytes": 49900,
+      "video_frames": 76,
+      "video_seconds": 2.53,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_tr03_diagonal_left_weichai_f1_29.npz",
+      "qpos_sha256": "93402ffaed8566529e45e050ffec8f71d98546a33559f99b74fde11657e3d06e",
+      "qpos_bytes": 45565,
+      "qpos_fps": 120.0,
+      "qpos_frames": 312,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_tr_01-01_03_120_stageii.npz",
+      "selection": {
+        "start": 3494,
+        "end": 3806
+      },
+      "group": "diagonal_left",
+      "video": "HDM05_tr03_diagonal_left_weichai_f1_29.mp4",
+      "video_sha256": "f80437b9e811e0a9f47ec06730ed5fff87245b57f9bade68a47d025a7ed13334",
+      "video_bytes": 48504,
+      "video_frames": 78,
+      "video_seconds": 2.6,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_mm02_diagonal_right_weichai_f1_29.npz",
+      "qpos_sha256": "86f539f351283be8058132fdb91c099f1088a9581534133d99f43e34a4992de7",
+      "qpos_bytes": 45292,
+      "qpos_fps": 120.0,
+      "qpos_frames": 312,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_mm_01-01_02_120_stageii.npz",
+      "selection": {
+        "start": 3566,
+        "end": 3878
+      },
+      "group": "diagonal_right",
+      "video": "HDM05_mm02_diagonal_right_weichai_f1_29.mp4",
+      "video_sha256": "3a737c9950ec6a23ab58f132072c3b67b55ff6de5a3023b8e253d67aab8a052c",
+      "video_bytes": 45809,
+      "video_frames": 78,
+      "video_seconds": 2.6,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_bk01_sidestep_pause_switch_weichai_f1_29.npz",
+      "qpos_sha256": "e905f86d8ba3310433e1d214a7f77eee38879cbe9a88f333d3ec8b21af228d2a",
+      "qpos_bytes": 125421,
+      "qpos_fps": 120.0,
+      "qpos_frames": 903,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_bk_01-01_01_120_stageii.npz",
+      "selection": {
+        "start": 4418,
+        "end": 5321
+      },
+      "group": "sidestep_pause_switch",
+      "video": "HDM05_bk01_sidestep_pause_switch_weichai_f1_29.mp4",
+      "video_sha256": "060fe3a44651e2fb992671a23a017173af75a55889003b7150abdea30589db9a",
+      "video_bytes": 136558,
+      "video_frames": 226,
+      "video_seconds": 7.53,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_tr01_sidestep_pause_switch_weichai_f1_29.npz",
+      "qpos_sha256": "f80e469c01f0f7487a468bdc5f6d22a232f047581f37f6141945a1e8ce41dc7c",
+      "qpos_bytes": 134709,
+      "qpos_fps": 120.0,
+      "qpos_frames": 970,
+      "source_dataset": "HDM05",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_tr_01-01_01_120_stageii.npz",
+      "selection": {
+        "start": 3734,
+        "end": 4704
+      },
+      "group": "sidestep_pause_switch",
+      "video": "HDM05_tr01_sidestep_pause_switch_weichai_f1_29.mp4",
+      "video_sha256": "bced15f0f03f6cb06bbc32edaa9dfd1421959e7d9cda3f486c968d8450952362",
+      "video_bytes": 118460,
+      "video_frames": 243,
+      "video_seconds": 8.1,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "HDM05_mm_01_04_01_pivot_right_weichai_f1_29.npz",
+      "qpos_sha256": "a34682fe4fb26f7d258bfba6c0a2375dc4956c86ae0126c37049ca5bca3d6f29",
+      "qpos_bytes": 36396,
+      "qpos_fps": 120.0,
+      "qpos_frames": 258,
+      "source_dataset": "HDM05",
+      "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1-local-omni-audit-20261127\\HDM05-foot-input\\HDM_mm_01-04_01_120_stageii.npz",
+      "selection": {
+        "start": 3360,
+        "end": 3618
+      },
+      "group": "pivot_right",
+      "video": "HDM05_mm_01_04_01_pivot_right_weichai_f1_29.mp4",
+      "video_sha256": "44ec5cd0030ef02b2819d38e70b63bec9fc5f17c2555419c61be7b3750c1aa59",
+      "video_bytes": 38349,
+      "video_frames": 65,
+      "video_seconds": 2.17,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

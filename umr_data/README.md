@@ -1,12 +1,12 @@
 # UMR 重定向数据
 
 本目录按机器人型号存放 UMR 重定向结果，各机器人目录再按动作来源或数据用途分组。
-共收录 **123 条轨迹 / 124,110 帧**。条数按 `.npz` 文件计，帧数为各轨迹的 `qpos` 行数之和。
+共收录 **172 条轨迹 / 145,168 帧**，其中 4 条为 F1 暂缓候选。条数按 `.npz` 文件计，帧数为各轨迹的 `qpos` 行数之和。
 
 | 目录 | 机器人 | 配置文件 | 结果条数 | 总帧数 |
 |---|---|---|---|---|
 | [`X1/`](X1) | XYBER X1（`xyber_x1`，1.267 m） | [configs/xyber_x1_base.json](../configs/xyber_x1_base.json) | 13 | 25,937 |
-| [`F1/`](F1) | 潍柴 F1-29（`weichai_f1_29`，1.286 m） | [configs/weichai_f1_29_base.json](../configs/weichai_f1_29_base.json) | 80 | 71,024 |
+| [`F1/`](F1) | 潍柴 F1-29（`weichai_f1_29`，1.286 m） | [configs/weichai_f1_29_base.json](../configs/weichai_f1_29_base.json) | 129 | 92,082 |
 | [`G1/`](G1) | Unitree G1（`unitree_g1`，1.323 m） | [czy/g1/umr_g1_config.json](../czy/g1/umr_g1_config.json) | 30 | 27,149 |
 
 ```
@@ -24,9 +24,14 @@ umr_data/
 │   ├── accad_walking_extra/    转向与倒退走
 │   ├── accad_running/          起跑、停跑、倒跑与冲刺
 │   ├── accad_general/          站立、重心摆动
-│   ├── accad_capability_candidates/  ACCAD 能力候选
+│   ├── accad_capability_candidates/  ACCAD 能力候选，含 _deferred 暂缓片段
+│   ├── 100style_locomotion/    左右侧移
 │   ├── cmu_locomotion/         CMU 运动片段
-│   ├── lafan1_locomotion/      LAFAN1 走跑片段
+│   ├── cmu_capability_candidates/    原地转向、弧线、侧移
+│   ├── hdm05_locomotion/       倒走与左右定向行走
+│   ├── hdm05_capability_candidates/  转向、低速、斜向、侧步
+│   ├── lafan1_locomotion/      LAFAN1 走跑、慢走弧线与停走重启
+│   ├── lafan1_recovery/        受推恢复
 │   ├── hiphi_getting_up/       起身
 │   ├── lafan1_dance/           舞蹈
 │   └── omnicontact_kick/       射门
@@ -68,7 +73,7 @@ umr_data/
 | `nr_xuzeyan_seat09/` | `MWVOPT_..._retarget_nr_xyber_x1` | NR 坐姿 | 5,509 | 61.2s | 38.70 MB |
 | `humanoid_spinkick/` | `humanoid_spinkick_character_xyber_x1` | 角色动画 | 78 | 1.3s | 0.99 MB |
 
-## F1（潍柴 F1-29）— 80 条
+## F1（潍柴 F1-29）— 129 条
 
 | 目录 | 条数 | 帧数 | 说明 |
 |---|---|---|---|
@@ -76,17 +81,24 @@ umr_data/
 | [`accad_walking_extra/`](F1/accad_walking_extra/README.md) | 24 | 23,505 | 转向与倒退走，与 G1 的 24 条行走轨迹逐条同源 |
 | [`accad_running/`](F1/accad_running) | 12 | 5,374 | C2–C5 与 X1 同源，另含起跑、倒跑、跑走转换和冲刺 |
 | [`accad_general/`](F1/accad_general) | 2 | 1,803 | 站立与重心摆动 |
-| [`accad_capability_candidates/`](F1/accad_capability_candidates/README.md) | 23 | 15,295 | 停步与反向、侧移、重心摆动及进退步候选 |
+| [`accad_capability_candidates/`](F1/accad_capability_candidates/README.md) | 24 | 15,540 | 停步与反向、侧移、重心摆动及进退步候选，含新增 C25 侧步裁剪 |
+| [`accad_capability_candidates/_deferred/`](F1/accad_capability_candidates/_deferred/README.md) | 4 | 2,858 | 暂缓的 ACCAD 能力候选，单独计数 |
+| [`100style_locomotion/`](F1/100style_locomotion) | 4 | 1,204 | 左右侧移 |
 | [`cmu_locomotion/`](F1/cmu_locomotion) | 4 | 4,526 | CMU 运动片段 |
-| [`lafan1_locomotion/`](F1/lafan1_locomotion) | 7 | 1,780 | 4 条 30 Hz 片段及 3 条从 ASE 训练归档恢复的 50 Hz 轨迹 |
+| [`cmu_capability_candidates/`](F1/cmu_capability_candidates) | 17 | 7,956 | 原地转向、弧线和侧移窗口 |
+| [`hdm05_locomotion/`](F1/hdm05_locomotion) | 6 | 3,240 | 倒走与左右定向行走 |
+| [`hdm05_capability_candidates/`](F1/hdm05_capability_candidates) | 8 | 3,656 | 原地转向、低速、斜向和侧步窗口 |
+| [`lafan1_locomotion/`](F1/lafan1_locomotion) | 14 | 3,079 | 7 条历史轨迹及 7 条新增慢走、弧线和停走重启片段 |
+| [`lafan1_recovery/`](F1/lafan1_recovery) | 2 | 600 | 受推恢复 |
 | [`hiphi_getting_up/`](F1/hiphi_getting_up) | 1 | 5,468 | HiPHI 起身，使用通用 SMPL-X 路径 |
 | [`lafan1_dance/`](F1/lafan1_dance) | 1 | 3,945 | LAFAN1 舞蹈 |
 | [`omnicontact_kick/`](F1/omnicontact_kick) | 1 | 5,771 | OmniContact 射门 |
 
 - **ASE F1 行走参考数据（22 条）**分布在 `accad_general/`、`accad_walking/`、`accad_running/`、`cmu_locomotion/` 和 `lafan1_locomotion/`。 [片段与回放索引](F1/README_ase_locomotion.md) · [来源、哈希与 ASE 训练映射](F1/_ase_locomotion_manifest.json)
-- **ACCAD F1 能力候选（23 条）**已做运动学几何初筛，动力学和训练表现待验证。 [候选片段与回放](F1/accad_capability_candidates/README.md) · [几何指标与来源清单](F1/accad_capability_candidates/manifest.json)
+- **首批 ACCAD F1 能力候选（23 条）**已做运动学几何初筛，动力学和训练表现待验证。 [候选片段与回放](F1/accad_capability_candidates/README.md) · [几何指标与来源清单](F1/accad_capability_candidates/manifest.json)
+- **2026-11-27 F1 补充交付（49 条 / 21,058 帧）**含 45 条正式补充和 4 条暂缓候选。 [交付说明](F1/README_capability_delivery_20261127.md) · [逐段来源、帧数与哈希](F1/_capability_delivery_20261127.json)
 
-新增的 45 条轨迹都附同名 `.mp4`，以 720p、30 fps 录制。轨迹本身的帧率以 `.npz` 中的 `fps` 为准。
+本次补充的 49 条轨迹均有同名 `.mp4` 回放，视频为 720p、30 fps，轨迹帧率以 `.npz` 中的 `fps` 为准。
 
 ## G1（Unitree G1）— 30 条
 
@@ -114,7 +126,7 @@ G1 的机器人模型与对应关系模型**不在本目录**：
 - `robot_name`、`robot_xml`、`robot_joint_names` — 机器人型号、模型路径与关节名称
 - `source_format`、`source_data`、`source_sequence_key` — 数据格式与来源
 
-额外字段随导出流程变化。常规重定向结果含 `smpl_scale` 和 `ground_z`，从 ASE 归档恢复的 3 条轨迹含 `robot_joint_limits` 和 `reference_sha256`。`.npz` 由 Git LFS 管理，工作区若只有指针文件，可运行 `git lfs pull` 获取轨迹。
+额外字段随导出流程变化。常规重定向结果含 `smpl_scale` 和 `ground_z`，从 ASE 归档恢复的 3 条轨迹含 `robot_joint_limits` 和 `reference_sha256`。GitLab 的 `.npz` 通过 Git LFS 管理，可用 `git lfs pull` 获取。GitHub 发布版直接提交重定向后的 `.npz` 文件。
 
 ## 命名约定
 
@@ -124,6 +136,7 @@ G1 的机器人模型与对应关系模型**不在本目录**：
 
 - **ACCAD** 由 [Ohio State University ACCAD](https://accad.osu.edu/research/motion-lab) 提供。新增 ACCAD 与 CMU 片段的 AMASS 来源文件和哈希见 F1 数据清单。
 - **LAFAN1** 来自 [Ubisoft La Forge Animation Dataset](https://github.com/ubisoft/ubisoft-laforge-animation-dataset)。舞蹈、走跑片段及训练归档的来源记录见对应目录和清单。
+- **HDM05、CMU、100STYLE** 的新增片段、源序列与裁剪区间见 [F1 补充交付清单](F1/_capability_delivery_20261127.json)。
 - **HiPHI**、**OmniContact**、**NR** 片段分别收录在上方目录索引中。重新生成时，请先获取对应的源动作和模型文件。
 
 ## 相关脚本

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "motion_count": 1,
+  "note": "Addition only; the existing 23-clip manifest.json is unchanged.",
+  "motions": [
+    {
+      "file": "Female1_C25_sidestep_right_weichai_f1_29.npz",
+      "qpos_sha256": "fd87dd377170237178e303b795e313af47175b7faa19c0e06a17605e646205f6",
+      "qpos_bytes": 35980,
+      "qpos_fps": 120.0,
+      "qpos_frames": 245,
+      "source_dataset": "AMASS / ACCAD",
+      "source_member": "C25_-__side_step_right_stageii.npz",
+      "selection": {
+        "start": 0,
+        "end": 245
+      },
+      "group": "sidestep_right",
+      "video": "Female1_C25_sidestep_right_weichai_f1_29.mp4",
+      "video_sha256": "74fd4178546f6b5db169b0ca2a8e5775d566e5ac79cf4053c33ad84cc159f2b4",
+      "video_bytes": 45677,
+      "video_frames": 62,
+      "video_seconds": 2.07,
+      "status": "kinematic_reference",
+      "note": "Window 0-244 of the full ACCAD C25 quick side-step clip."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "robot_xml": "assets/F1.5/weichai_f1_29/mjcf/weichai_f1_29.xml",
+  "robot_xml_sha256": "9cd1e55cdfef13230f95c6b5581dfe80b9e87182910a6ab2b27323939ce2608d",
+  "video": {
+    "renderer": "MuJoCo 3.15.0 mujoco.Renderer",
+    "fps": 30.0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "motion_count": 4,
+  "status": "kinematic_reference",
+  "motions": [
+    {
+      "file": "100STYLE_Neutral_side_left_weichai_f1_29.npz",
+      "qpos_sha256": "69002ca2ed52811362bb7347f9993a003ce0419d02a0a1a237cb8d8ecf32fbba",
+      "qpos_bytes": 35828,
+      "qpos_fps": 60.0,
+      "qpos_frames": 241,
+      "source_dataset": "100STYLE",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\Neutral_SW.bvh",
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "side",
+      "video": "100STYLE_Neutral_side_left_weichai_f1_29.mp4",
+      "video_sha256": "d877f6e2086892de1afe13f1ca26a3c15a2fac45acceb7a07cf7946ac55c2ac5",
+      "video_bytes": 80799,
+      "video_frames": 121,
+      "video_seconds": 4.03,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "100STYLE_Neutral_side_right_weichai_f1_29.npz",
+      "qpos_sha256": "4d8ad7a527fc3c4bea765a4d2f25c1252ed5363e35ae9f64cf2c45aab82fc37d",
+      "qpos_bytes": 35963,
+      "qpos_fps": 60.0,
+      "qpos_frames": 241,
+      "source_dataset": "100STYLE",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\Neutral_SW.bvh",
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "side",
+      "video": "100STYLE_Neutral_side_right_weichai_f1_29.mp4",
+      "video_sha256": "56812bd06225c0b05b8da237a65afa48f61564850106a572f789331ea94b51ce",
+      "video_bytes": 75872,
+      "video_frames": 121,
+      "video_seconds": 4.03,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "100STYLE_ArmsBySide_side_left_weichai_f1_29.npz",
+      "qpos_sha256": "d4e1d413b1dc0226e4b014ebcd9b8fc19a66d86597405e7b021e7c9e965b0266",
+      "qpos_bytes": 52455,
+      "qpos_fps": 60.0,
+      "qpos_frames": 361,
+      "source_dataset": "100STYLE",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\ArmsBySide_SW.bvh",
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "side",
+      "video": "100STYLE_ArmsBySide_side_left_weichai_f1_29.mp4",
+      "video_sha256": "c4ef9400dfe83d096b3470920895ce0dcabe251a37a30f8f5661855f9ebfb8d8",
+      "video_bytes": 105730,
+      "video_frames": 181,
+      "video_seconds": 6.03,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "100STYLE_ArmsBySide_side_right_weichai_f1_29.npz",
+      "qpos_sha256": "b249bcc62c83cee8986f9aea96f6783636bfac238e1d3801cb2faa7cc2025b23",
+      "qpos_bytes": 52496,
+      "qpos_fps": 60.0,
+      "qpos_frames": 361,
+      "source_dataset": "100STYLE",
+      "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\ArmsBySide_SW.bvh",
+      "selection": {
+        "start": null,
+        "end": null
+      },
+      "group": "side",
+      "video": "100STYLE_ArmsBySide_side_right_weichai_f1_29.mp4",
+      "video_sha256": "fce950ae67017afcef78c8146e3467ae5f0720d3570920091d2732f58b7b9d34",
+      "video_bytes": 95341,
+      "video_frames": 181,
+      "video_seconds": 6.03,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "robot_xml": "assets/F1.5/weichai_f1_29/mjcf/weichai_f1_29.xml",
+  "robot_xml_sha256": "9cd1e55cdfef13230f95c6b5581dfe80b9e87182910a6ab2b27323939ce2608d",
+  "video": {
+    "renderer": "MuJoCo 3.15.0 mujoco.Renderer",
+    "fps": 30.0,
+    "size": [
+      1280,
+      720
+    ]
+  },
+  "motion_count": 2,
+  "status": "kinematic_reference",
+  "motions": [
+    {
+      "file": "LAFAN_recovery_push_s3_weichai_f1_29.npz",
+      "qpos_sha256": "b18fee0fc8185a2476a379679cb9e17ac6a2d75986d3181bb0ab6bc10f5272b6",
+      "qpos_bytes": 43811,
+      "qpos_fps": 30.0,
+      "qpos_frames": 300,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "pushAndStumble1_subject3.bvh",
+      "selection": {
+        "start": 1918,
+        "end": 2218
+      },
+      "group": "recovery",
+      "video": "LAFAN_recovery_push_s3_weichai_f1_29.mp4",
+      "video_sha256": "c22fc7da84ebbe437e6485a5f521b6d6b5aa31512ac9a52f2e756a243d51474d",
+      "video_bytes": 303710,
+      "video_frames": 300,
+      "video_seconds": 10.0,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "file": "LAFAN_recovery_push_s5_weichai_f1_29.npz",
+      "qpos_sha256": "99a555eedcf88ffd813a1c3be59ee109e974110e3dde34c7392fda84b1416bc7",
+      "qpos_bytes": 43638,
+      "qpos_fps": 30.0,
+      "qpos_frames": 300,
+      "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+      "source_member": "pushAndStumble1_subject5.bvh",
+      "selection": {
+        "start": 4436,
+        "end": 4736
+      },
+      "group": "recovery",
+      "video": "LAFAN_recovery_push_s5_weichai_f1_29.mp4",
+      "video_sha256": "4b70e7a13094fff12af6bf28abc5ab4933308c9bc18ef7eceac8f46f5235c5b2",
+      "video_bytes": 292573,
+      "video_frames": 300,
+      "video_seconds": 10.0,
+      "status": "kinematic_reference",
+      "note": "",
+      "video_size": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1218 @@
+{
+  "date": "2026-11-27",
+  "robot": "weichai_f1_29",
+  "total": 49,
+  "folders": {
+    "hdm05_locomotion": 6,
+    "hdm05_capability_candidates": 8,
+    "cmu_capability_candidates": 17,
+    "100style_locomotion": 4,
+    "lafan1_recovery": 2,
+    "lafan1_locomotion": 7,
+    "accad_capability_candidates": 1,
+    "accad_capability_candidates/_deferred": 4
+  },
+  "motions": {
+    "hdm05_locomotion": [
+      {
+        "file": "HDM05_back_01_weichai_f1_29.npz",
+        "qpos_sha256": "f9b2e3b0f72c3a91add297a8260aa4e1bf2f80b8877a4f7f1c77b00c51763724",
+        "qpos_bytes": 76647,
+        "qpos_fps": 120.0,
+        "qpos_frames": 540,
+        "source_dataset": "HDM05",
+        "source_member": "HDM_tr_01-01_03_120_stageii.npz",
+        "selection": {
+          "start": 1866,
+          "end": 2406
+        },
+        "group": "back",
+        "video": "HDM05_back_01_weichai_f1_29.mp4",
+        "video_sha256": "4201e0eb18418cff13b2c4a19b38c532f0482f64fe889bc4997efacbfbda36f7",
+        "video_bytes": 92224,
+        "video_frames": 135,
+        "video_seconds": 4.5,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_back_02_weichai_f1_29.npz",
+        "qpos_sha256": "cbec7fa4a516b93d2540ac1df7715a325e3f5d9d2408e8e9ae2cac0737e93a3c",
+        "qpos_bytes": 76349,
+        "qpos_fps": 120.0,
+        "qpos_frames": 540,
+        "source_dataset": "HDM05",
+        "source_member": "HDM_mm_01-01_02_120_stageii.npz",
+        "selection": {
+          "start": 1716,
+          "end": 2256
+        },
+        "group": "back",
+        "video": "HDM05_back_02_weichai_f1_29.mp4",
+        "video_sha256": "b5f91b9781f4a0e0f0187c800f00caa36b5981e956ca13618727dfbd2d8c6b5c",
+        "video_bytes": 81006,
+        "video_frames": 135,
+        "video_seconds": 4.5,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_left_01_weichai_f1_29.npz",
+        "qpos_sha256": "185c1b8b463feedeca2dc93a3f44cc2c4e5a6c3cf871c006bf95b5dd986604f5",
+        "qpos_bytes": 76623,
+        "qpos_fps": 120.0,
+        "qpos_frames": 540,
+        "source_dataset": "HDM05",
+        "source_member": "HDM_tr_01-01_01_120_stageii.npz",
+        "selection": {
+          "start": 3444,
+          "end": 3984
+        },
+        "group": "left",
+        "video": "HDM05_left_01_weichai_f1_29.mp4",
+        "video_sha256": "6819632dea272fe43e90021cd673972d9cb0f1b1f89bfcb6c3e2d386b3bd86c9",
+        "video_bytes": 75393,
+        "video_frames": 135,
+        "video_seconds": 4.5,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_left_02_weichai_f1_29.npz",
+        "qpos_sha256": "f31c9766b0a8875831dfb1f7ae66b660d4fd3d8c19706e4945f25232b1fb1385",
+        "qpos_bytes": 75738,
+        "qpos_fps": 120.0,
+        "qpos_frames": 540,
+        "source_dataset": "HDM05",
+        "source_member": "HDM_mm_01-01_02_120_stageii.npz",
+        "selection": {
+          "start": 3090,
+          "end": 3630
+        },
+        "group": "left",
+        "video": "HDM05_left_02_weichai_f1_29.mp4",
+        "video_sha256": "141a29ed73cae9a3d415925d19721226e9cb7c683790494f20b26464670c3b8f",
+        "video_bytes": 76402,
+        "video_frames": 135,
+        "video_seconds": 4.5,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_right_01_weichai_f1_29.npz",
+        "qpos_sha256": "d27b474fa36d30f31692e332c5b892625e5f7c94ac147c663ed68a6d54e3d61c",
+        "qpos_bytes": 76035,
+        "qpos_fps": 120.0,
+        "qpos_frames": 540,
+        "source_dataset": "HDM05",
+        "source_member": "HDM_mm_01-01_02_120_stageii.npz",
+        "selection": {
+          "start": 3510,
+          "end": 4050
+        },
+        "group": "right",
+        "video": "HDM05_right_01_weichai_f1_29.mp4",
+        "video_sha256": "4f6ea8f8fd1cb46df33f64939fbd2edaf55436f1b8c44a9ec32cfbf1b8802385",
+        "video_bytes": 79903,
+        "video_frames": 135,
+        "video_seconds": 4.5,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_right_02_weichai_f1_29.npz",
+        "qpos_sha256": "13d21a158a8790e1e2a6a1bf617f9552ede4d67c1586a43f6b69c91ea9b74de0",
+        "qpos_bytes": 76005,
+        "qpos_fps": 120.0,
+        "qpos_frames": 540,
+        "source_dataset": "HDM05",
+        "source_member": "HDM_dg_01-01_03_120_stageii.npz",
+        "selection": {
+          "start": 3912,
+          "end": 4452
+        },
+        "group": "right",
+        "video": "HDM05_right_02_weichai_f1_29.mp4",
+        "video_sha256": "7085e8455bf89afc9a9031d1384990308b2d592c217e2af902a397f23a879d99",
+        "video_bytes": 105997,
+        "video_frames": 135,
+        "video_seconds": 4.5,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      }
+    ],
+    "hdm05_capability_candidates": [
+      {
+        "file": "HDM05_tr01_pivot_left_weichai_f1_29.npz",
+        "qpos_sha256": "4a5495fb9fd0725de556dfe7d62391c8c7e2988d8f36dac5aff28eaa8754617c",
+        "qpos_bytes": 41823,
+        "qpos_fps": 120.0,
+        "qpos_frames": 284,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_tr_01-01_01_120_stageii.npz",
+        "selection": {
+          "start": 5922,
+          "end": 6206
+        },
+        "group": "pivot_left",
+        "video": "HDM05_tr01_pivot_left_weichai_f1_29.mp4",
+        "video_sha256": "ddeb5bafe48efcde7b91f841eaad6c6825663f9edbc5283142162b37ffc935f8",
+        "video_bytes": 54659,
+        "video_frames": 71,
+        "video_seconds": 2.37,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_bk02_slow_forward_weichai_f1_29.npz",
+        "qpos_sha256": "c970ad4f3e13cd37e71e74b4aa4b060b5294e2c626f04d2ab0f7fa95e14ca983",
+        "qpos_bytes": 45045,
+        "qpos_fps": 120.0,
+        "qpos_frames": 313,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_bk_01-01_02_120_stageii.npz",
+        "selection": {
+          "start": 7962,
+          "end": 8275
+        },
+        "group": "slow_forward",
+        "video": "HDM05_bk02_slow_forward_weichai_f1_29.mp4",
+        "video_sha256": "4b5755f44c8c916b4cffb984d6faf0154f435982d398ef94c20439cad354f16d",
+        "video_bytes": 54590,
+        "video_frames": 79,
+        "video_seconds": 2.63,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_bk02_slow_back_weichai_f1_29.npz",
+        "qpos_sha256": "3122782888a5b2a373d364bfc43eb220c6746ca98b9074c6f1e7dd0dbb5472dd",
+        "qpos_bytes": 44405,
+        "qpos_fps": 120.0,
+        "qpos_frames": 304,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_bk_01-01_02_120_stageii.npz",
+        "selection": {
+          "start": 2106,
+          "end": 2410
+        },
+        "group": "slow_back",
+        "video": "HDM05_bk02_slow_back_weichai_f1_29.mp4",
+        "video_sha256": "7e4ea37281a2ebac44912338a3170966ce3bc9139cd1b4339442990fa8b6d4eb",
+        "video_bytes": 49900,
+        "video_frames": 76,
+        "video_seconds": 2.53,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_tr03_diagonal_left_weichai_f1_29.npz",
+        "qpos_sha256": "93402ffaed8566529e45e050ffec8f71d98546a33559f99b74fde11657e3d06e",
+        "qpos_bytes": 45565,
+        "qpos_fps": 120.0,
+        "qpos_frames": 312,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_tr_01-01_03_120_stageii.npz",
+        "selection": {
+          "start": 3494,
+          "end": 3806
+        },
+        "group": "diagonal_left",
+        "video": "HDM05_tr03_diagonal_left_weichai_f1_29.mp4",
+        "video_sha256": "f80437b9e811e0a9f47ec06730ed5fff87245b57f9bade68a47d025a7ed13334",
+        "video_bytes": 48504,
+        "video_frames": 78,
+        "video_seconds": 2.6,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_mm02_diagonal_right_weichai_f1_29.npz",
+        "qpos_sha256": "86f539f351283be8058132fdb91c099f1088a9581534133d99f43e34a4992de7",
+        "qpos_bytes": 45292,
+        "qpos_fps": 120.0,
+        "qpos_frames": 312,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_mm_01-01_02_120_stageii.npz",
+        "selection": {
+          "start": 3566,
+          "end": 3878
+        },
+        "group": "diagonal_right",
+        "video": "HDM05_mm02_diagonal_right_weichai_f1_29.mp4",
+        "video_sha256": "3a737c9950ec6a23ab58f132072c3b67b55ff6de5a3023b8e253d67aab8a052c",
+        "video_bytes": 45809,
+        "video_frames": 78,
+        "video_seconds": 2.6,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_bk01_sidestep_pause_switch_weichai_f1_29.npz",
+        "qpos_sha256": "e905f86d8ba3310433e1d214a7f77eee38879cbe9a88f333d3ec8b21af228d2a",
+        "qpos_bytes": 125421,
+        "qpos_fps": 120.0,
+        "qpos_frames": 903,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_bk_01-01_01_120_stageii.npz",
+        "selection": {
+          "start": 4418,
+          "end": 5321
+        },
+        "group": "sidestep_pause_switch",
+        "video": "HDM05_bk01_sidestep_pause_switch_weichai_f1_29.mp4",
+        "video_sha256": "060fe3a44651e2fb992671a23a017173af75a55889003b7150abdea30589db9a",
+        "video_bytes": 136558,
+        "video_frames": 226,
+        "video_seconds": 7.53,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_tr01_sidestep_pause_switch_weichai_f1_29.npz",
+        "qpos_sha256": "f80e469c01f0f7487a468bdc5f6d22a232f047581f37f6141945a1e8ce41dc7c",
+        "qpos_bytes": 134709,
+        "qpos_fps": 120.0,
+        "qpos_frames": 970,
+        "source_dataset": "HDM05",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_hdm05\\source\\HDM_tr_01-01_01_120_stageii.npz",
+        "selection": {
+          "start": 3734,
+          "end": 4704
+        },
+        "group": "sidestep_pause_switch",
+        "video": "HDM05_tr01_sidestep_pause_switch_weichai_f1_29.mp4",
+        "video_sha256": "bced15f0f03f6cb06bbc32edaa9dfd1421959e7d9cda3f486c968d8450952362",
+        "video_bytes": 118460,
+        "video_frames": 243,
+        "video_seconds": 8.1,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "HDM05_mm_01_04_01_pivot_right_weichai_f1_29.npz",
+        "qpos_sha256": "a34682fe4fb26f7d258bfba6c0a2375dc4956c86ae0126c37049ca5bca3d6f29",
+        "qpos_bytes": 36396,
+        "qpos_fps": 120.0,
+        "qpos_frames": 258,
+        "source_dataset": "HDM05",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1-local-omni-audit-20261127\\HDM05-foot-input\\HDM_mm_01-04_01_120_stageii.npz",
+        "selection": {
+          "start": 3360,
+          "end": 3618
+        },
+        "group": "pivot_right",
+        "video": "HDM05_mm_01_04_01_pivot_right_weichai_f1_29.mp4",
+        "video_sha256": "44ec5cd0030ef02b2819d38e70b63bec9fc5f17c2555419c61be7b3750c1aa59",
+        "video_bytes": 38349,
+        "video_frames": 65,
+        "video_seconds": 2.17,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      }
+    ],
+    "cmu_capability_candidates": [
+      {
+        "file": "CMU_76_10_pivot_right_weichai_f1_29.npz",
+        "qpos_sha256": "a274e2d9eec22183de7179709b80e59d825960c9fb8303d0a4a72bb8c78c482f",
+        "qpos_bytes": 38071,
+        "qpos_fps": 120.0,
+        "qpos_frames": 258,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_cmu\\source\\76_10_stageii.npz",
+        "selection": {
+          "start": 126,
+          "end": 384
+        },
+        "group": "pivot_right",
+        "video": "CMU_76_10_pivot_right_weichai_f1_29.mp4",
+        "video_sha256": "130d99de0449b50585f85c93f7855c487fd66c9af9b7b3d20dda0c9affda3c73",
+        "video_bytes": 47824,
+        "video_frames": 65,
+        "video_seconds": 2.17,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_40_02_arc_right_weichai_f1_29.npz",
+        "qpos_sha256": "372d5eae92dfa4507e6ae0a0cd2bd32072654f5c4ffcb4d6f5b838f5d12c3bf6",
+        "qpos_bytes": 41999,
+        "qpos_fps": 120.0,
+        "qpos_frames": 286,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_cmu\\source\\40_02_stageii.npz",
+        "selection": {
+          "start": 268,
+          "end": 554
+        },
+        "group": "arc_right",
+        "video": "CMU_40_02_arc_right_weichai_f1_29.mp4",
+        "video_sha256": "57e4e67856a4dc6f35c1564f0463dfff2efaa28ede881d92af5737482ca9a547",
+        "video_bytes": 51506,
+        "video_frames": 72,
+        "video_seconds": 2.4,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_40_02_arc_left_weichai_f1_29.npz",
+        "qpos_sha256": "d7dacc68955069321445fa3bab5cbd5f1bcd8a8efac381d2963543bde8e94000",
+        "qpos_bytes": 42352,
+        "qpos_fps": 120.0,
+        "qpos_frames": 288,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_cmu\\source\\40_02_stageii.npz",
+        "selection": {
+          "start": 3648,
+          "end": 3936
+        },
+        "group": "arc_left",
+        "video": "CMU_40_02_arc_left_weichai_f1_29.mp4",
+        "video_sha256": "e906c068dd81bc53febc45929f8f50335fb54595929ff0ffccd916782959afa8",
+        "video_bytes": 49227,
+        "video_frames": 72,
+        "video_seconds": 2.4,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_41_02_arc_right_weichai_f1_29.npz",
+        "qpos_sha256": "5bab2793205ac8f7db51ce56c8a5dbabb45850a23dad96c87f3d436ef597251a",
+        "qpos_bytes": 41571,
+        "qpos_fps": 120.0,
+        "qpos_frames": 282,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_cmu\\source\\41_02_stageii.npz",
+        "selection": {
+          "start": 2784,
+          "end": 3066
+        },
+        "group": "arc_right",
+        "video": "CMU_41_02_arc_right_weichai_f1_29.mp4",
+        "video_sha256": "8cb22b4235690c9425cb8463a005bac111e672d2c604259786f7f155afbd6fc5",
+        "video_bytes": 45463,
+        "video_frames": 71,
+        "video_seconds": 2.37,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_41_02_arc_left_weichai_f1_29.npz",
+        "qpos_sha256": "e43e435ff34eaf0e9816f4c725ebfa4f77a113a42a2a96130c2ddf041b248845",
+        "qpos_bytes": 41478,
+        "qpos_fps": 120.0,
+        "qpos_frames": 282,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_cmu\\source\\41_02_stageii.npz",
+        "selection": {
+          "start": 3624,
+          "end": 3906
+        },
+        "group": "arc_left",
+        "video": "CMU_41_02_arc_left_weichai_f1_29.mp4",
+        "video_sha256": "c4f4fed5f1513b4b0d38188d17bcfc85fd222205e29f94f3f7c8b244fb229dbd",
+        "video_bytes": 44192,
+        "video_frames": 71,
+        "video_seconds": 2.37,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_41_03_sidestep_right_weichai_f1_29.npz",
+        "qpos_sha256": "7ce6f3277cf8f6b0e5d7001d1fe04d0698a1e040d150ffc6dbe12b007e2e79e1",
+        "qpos_bytes": 42928,
+        "qpos_fps": 120.0,
+        "qpos_frames": 292,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\data\\reference_review\\exp7_3_cmu\\source\\41_03_stageii.npz",
+        "selection": {
+          "start": 1678,
+          "end": 1970
+        },
+        "group": "sidestep_right",
+        "video": "CMU_41_03_sidestep_right_weichai_f1_29.mp4",
+        "video_sha256": "49699c248b73fea0e355805f63498cd5c39abda6d2022e1f7c96a1e57c2eac71",
+        "video_bytes": 47592,
+        "video_frames": 73,
+        "video_seconds": 2.43,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_35_27_side_right_weichai_f1_29.npz",
+        "qpos_sha256": "667b196d7216f5e855c5de4b81817c5c0ceb3a9931a8108315ad3924d68e0857",
+        "qpos_bytes": 36823,
+        "qpos_fps": 120.0,
+        "qpos_frames": 246,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\35_27_stageii.npz",
+        "selection": {
+          "start": 5730,
+          "end": 5976
+        },
+        "group": "side_right",
+        "video": "CMU_35_27_side_right_weichai_f1_29.mp4",
+        "video_sha256": "c7ee025d0e4d8ba2e7bda9ba76f603f0191a55412df7e1adbbb8fa579e624e84",
+        "video_bytes": 37580,
+        "video_frames": 62,
+        "video_seconds": 2.07,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_35_27_side_left_weichai_f1_29.npz",
+        "qpos_sha256": "9ce56c740f5a8ef1548811e051950fe507a1aec9fb732a48bc7bdce1bba762e1",
+        "qpos_bytes": 35839,
+        "qpos_fps": 120.0,
+        "qpos_frames": 240,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\35_27_stageii.npz",
+        "selection": {
+          "start": 8004,
+          "end": 8244
+        },
+        "group": "side_left",
+        "video": "CMU_35_27_side_left_weichai_f1_29.mp4",
+        "video_sha256": "98e90f82dee5eeaa478f98525ad88559a67ea924d15ee33ea25ad9ed009b83ab",
+        "video_bytes": 35757,
+        "video_frames": 60,
+        "video_seconds": 2.0,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_111_26_side_left_weichai_f1_29.npz",
+        "qpos_sha256": "152779a1da8e29013a182ae8a2854d6eba1aea89acbbe925369bf6db970a70ae",
+        "qpos_bytes": 35871,
+        "qpos_fps": 120.0,
+        "qpos_frames": 240,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\111_26_stageii.npz",
+        "selection": {
+          "start": 1350,
+          "end": 1590
+        },
+        "group": "side_left",
+        "video": "CMU_111_26_side_left_weichai_f1_29.mp4",
+        "video_sha256": "51df9c50e87353a147cf894e1d2f2c7e618a256405f298835cff7331359b1f2c",
+        "video_bytes": 46666,
+        "video_frames": 60,
+        "video_seconds": 2.0,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_111_26_side_right_weichai_f1_29.npz",
+        "qpos_sha256": "0851562e25b3e3936fbf30a924e54c25056e80d7b5b449d99c98145f1cb3d6b0",
+        "qpos_bytes": 36482,
+        "qpos_fps": 120.0,
+        "qpos_frames": 246,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\111_26_stageii.npz",
+        "selection": {
+          "start": 294,
+          "end": 540
+        },
+        "group": "side_right",
+        "video": "CMU_111_26_side_right_weichai_f1_29.mp4",
+        "video_sha256": "dde44ed535379663eda0e0f6e4cbfeb8e5ab99b65011cd68657b0ad725a59f62",
+        "video_bytes": 49679,
+        "video_frames": 62,
+        "video_seconds": 2.07,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_12_04_slow_side_left_weichai_f1_29.npz",
+        "qpos_sha256": "81df1e90a6cb4a1cc5e7f261808044a67068ccbc0cf82eedf59a5934156e9bbf",
+        "qpos_bytes": 49822,
+        "qpos_fps": 120.0,
+        "qpos_frames": 354,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\12_04_stageii.npz",
+        "selection": {
+          "start": 8304,
+          "end": 8658
+        },
+        "group": "side_left",
+        "video": "CMU_12_04_slow_side_left_weichai_f1_29.mp4",
+        "video_sha256": "fe0cf2ae3651ba50af93cbe6ed71b9d2454a7e6040ab912e9bd97d94c1190cf3",
+        "video_bytes": 57227,
+        "video_frames": 89,
+        "video_seconds": 2.97,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_12_04_slow_side_right_weichai_f1_29.npz",
+        "qpos_sha256": "5d0059c21e669bc18da7220f4e8affd87bac250481de4887a778fb3a5b047877",
+        "qpos_bytes": 41931,
+        "qpos_fps": 120.0,
+        "qpos_frames": 306,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\12_04_stageii.npz",
+        "selection": {
+          "start": 4380,
+          "end": 4686
+        },
+        "group": "side_right",
+        "video": "CMU_12_04_slow_side_right_weichai_f1_29.mp4",
+        "video_sha256": "dbaca1759d3478c6711f156b0faea485f949b69e9dc542b2f42b7958c374d4b2",
+        "video_bytes": 39586,
+        "video_frames": 77,
+        "video_seconds": 2.57,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_12_04_pivot_left_reserve_weichai_f1_29.npz",
+        "qpos_sha256": "1c4419445007a3d15352c52bd743d516f3f85feb565e90063afbf2fd9f5a0f7e",
+        "qpos_bytes": 48530,
+        "qpos_fps": 120.0,
+        "qpos_frames": 336,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "C:\\Users\\cuizeyu\\AppData\\Local\\Temp\\f1_exp76_20261127_sources\\12_04_stageii.npz",
+        "selection": {
+          "start": 13782,
+          "end": 14118
+        },
+        "group": "pivot_left",
+        "video": "CMU_12_04_pivot_left_reserve_weichai_f1_29.mp4",
+        "video_sha256": "14f9f27315e0b2b4e7f536716401f658fbb529ee203e5d34452b2a994f51e315",
+        "video_bytes": 50674,
+        "video_frames": 84,
+        "video_seconds": 2.8,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_69_16_pivot_weichai_f1_29.npz",
+        "qpos_sha256": "4306369a2e3803da2197f3bb4065f3432078832374b703ca8bcf4eee659f29db",
+        "qpos_bytes": 152326,
+        "qpos_fps": 120.0,
+        "qpos_frames": 1128,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\cmu_69\\69_16.amc",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "pivot",
+        "video": "CMU_69_16_pivot_weichai_f1_29.mp4",
+        "video_sha256": "0cd141eba30a26725fb7e40b0ff87ce5df30be96761e0730129c4c77d36a8809",
+        "video_bytes": 178393,
+        "video_frames": 282,
+        "video_seconds": 9.4,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_69_17_pivot_weichai_f1_29.npz",
+        "qpos_sha256": "cbef8a22bd77c2558510ba892b9d6879a5b4f0ae91e127e6ad20831690d02115",
+        "qpos_bytes": 136149,
+        "qpos_fps": 120.0,
+        "qpos_frames": 999,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\cmu_69\\69_17.amc",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "pivot",
+        "video": "CMU_69_17_pivot_weichai_f1_29.mp4",
+        "video_sha256": "35717f3e3caf5f1da98289b068d91a8ebcab96bd2f9ea6160867a942fa47b65b",
+        "video_bytes": 156876,
+        "video_frames": 250,
+        "video_seconds": 8.33,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_69_18_pivot_weichai_f1_29.npz",
+        "qpos_sha256": "f573075ef02452632fe0c37d2e1d9860d6187be7a12b847e306bd93c43f5aa6a",
+        "qpos_bytes": 142609,
+        "qpos_fps": 120.0,
+        "qpos_frames": 1054,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\cmu_69\\69_18.amc",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "pivot",
+        "video": "CMU_69_18_pivot_weichai_f1_29.mp4",
+        "video_sha256": "c8d541213bfda48a733763de0525a9d24d3286c70a9e70c89b0daccc7d1da056",
+        "video_bytes": 166308,
+        "video_frames": 264,
+        "video_seconds": 8.8,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "CMU_69_19_pivot_weichai_f1_29.npz",
+        "qpos_sha256": "a82b1252cf1e2ffcca4de2ffed8bba077c1acc7ed48b23d73709db245a450f8c",
+        "qpos_bytes": 151521,
+        "qpos_fps": 120.0,
+        "qpos_frames": 1119,
+        "source_dataset": "CMU (AMASS)",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\cmu_69\\69_19.amc",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "pivot",
+        "video": "CMU_69_19_pivot_weichai_f1_29.mp4",
+        "video_sha256": "d85207094ba833a5248dc749052ea776258f179ff98081b42b4b34b0cbebfb07",
+        "video_bytes": 169264,
+        "video_frames": 280,
+        "video_seconds": 9.33,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      }
+    ],
+    "100style_locomotion": [
+      {
+        "file": "100STYLE_Neutral_side_left_weichai_f1_29.npz",
+        "qpos_sha256": "69002ca2ed52811362bb7347f9993a003ce0419d02a0a1a237cb8d8ecf32fbba",
+        "qpos_bytes": 35828,
+        "qpos_fps": 60.0,
+        "qpos_frames": 241,
+        "source_dataset": "100STYLE",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\Neutral_SW.bvh",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "side",
+        "video": "100STYLE_Neutral_side_left_weichai_f1_29.mp4",
+        "video_sha256": "d877f6e2086892de1afe13f1ca26a3c15a2fac45acceb7a07cf7946ac55c2ac5",
+        "video_bytes": 80799,
+        "video_frames": 121,
+        "video_seconds": 4.03,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "100STYLE_Neutral_side_right_weichai_f1_29.npz",
+        "qpos_sha256": "4d8ad7a527fc3c4bea765a4d2f25c1252ed5363e35ae9f64cf2c45aab82fc37d",
+        "qpos_bytes": 35963,
+        "qpos_fps": 60.0,
+        "qpos_frames": 241,
+        "source_dataset": "100STYLE",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\Neutral_SW.bvh",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "side",
+        "video": "100STYLE_Neutral_side_right_weichai_f1_29.mp4",
+        "video_sha256": "56812bd06225c0b05b8da237a65afa48f61564850106a572f789331ea94b51ce",
+        "video_bytes": 75872,
+        "video_frames": 121,
+        "video_seconds": 4.03,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "100STYLE_ArmsBySide_side_left_weichai_f1_29.npz",
+        "qpos_sha256": "d4e1d413b1dc0226e4b014ebcd9b8fc19a66d86597405e7b021e7c9e965b0266",
+        "qpos_bytes": 52455,
+        "qpos_fps": 60.0,
+        "qpos_frames": 361,
+        "source_dataset": "100STYLE",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\ArmsBySide_SW.bvh",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "side",
+        "video": "100STYLE_ArmsBySide_side_left_weichai_f1_29.mp4",
+        "video_sha256": "c4ef9400dfe83d096b3470920895ce0dcabe251a37a30f8f5661855f9ebfb8d8",
+        "video_bytes": 105730,
+        "video_frames": 181,
+        "video_seconds": 6.03,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "100STYLE_ArmsBySide_side_right_weichai_f1_29.npz",
+        "qpos_sha256": "b249bcc62c83cee8986f9aea96f6783636bfac238e1d3801cb2faa7cc2025b23",
+        "qpos_bytes": 52496,
+        "qpos_fps": 60.0,
+        "qpos_frames": 361,
+        "source_dataset": "100STYLE",
+        "source_member": "E:\\F1\\F1_ase_h\\czy\\npz\\100style\\ArmsBySide_SW.bvh",
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "side",
+        "video": "100STYLE_ArmsBySide_side_right_weichai_f1_29.mp4",
+        "video_sha256": "fce950ae67017afcef78c8146e3467ae5f0720d3570920091d2732f58b7b9d34",
+        "video_bytes": 95341,
+        "video_frames": 181,
+        "video_seconds": 6.03,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      }
+    ],
+    "lafan1_recovery": [
+      {
+        "file": "LAFAN_recovery_push_s3_weichai_f1_29.npz",
+        "qpos_sha256": "b18fee0fc8185a2476a379679cb9e17ac6a2d75986d3181bb0ab6bc10f5272b6",
+        "qpos_bytes": 43811,
+        "qpos_fps": 30.0,
+        "qpos_frames": 300,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "pushAndStumble1_subject3.bvh",
+        "selection": {
+          "start": 1918,
+          "end": 2218
+        },
+        "group": "recovery",
+        "video": "LAFAN_recovery_push_s3_weichai_f1_29.mp4",
+        "video_sha256": "c22fc7da84ebbe437e6485a5f521b6d6b5aa31512ac9a52f2e756a243d51474d",
+        "video_bytes": 303710,
+        "video_frames": 300,
+        "video_seconds": 10.0,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      },
+      {
+        "file": "LAFAN_recovery_push_s5_weichai_f1_29.npz",
+        "qpos_sha256": "99a555eedcf88ffd813a1c3be59ee109e974110e3dde34c7392fda84b1416bc7",
+        "qpos_bytes": 43638,
+        "qpos_fps": 30.0,
+        "qpos_frames": 300,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "pushAndStumble1_subject5.bvh",
+        "selection": {
+          "start": 4436,
+          "end": 4736
+        },
+        "group": "recovery",
+        "video": "LAFAN_recovery_push_s5_weichai_f1_29.mp4",
+        "video_sha256": "4b70e7a13094fff12af6bf28abc5ab4933308c9bc18ef7eceac8f46f5235c5b2",
+        "video_bytes": 292573,
+        "video_frames": 300,
+        "video_seconds": 10.0,
+        "status": "kinematic_reference",
+        "note": "",
+        "video_size": [
+          1280,
+          720
+        ]
+      }
+    ],
+    "lafan1_locomotion": [
+      {
+        "file": "LAFAN_pause_restart_multiple_s3_weichai_f1_29.npz",
+        "qpos_sha256": "323b49010c18ff8b2d1cf578fe74e08356367b21d0bc655a39097c1a1f1c3d98",
+        "qpos_bytes": 36086,
+        "qpos_fps": 30.0,
+        "qpos_frames": 244,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "multipleActions1_subject3.bvh",
+        "selection": {
+          "start": 2920,
+          "end": 3164
+        },
+        "group": "pause_restart",
+        "video": "LAFAN_pause_restart_multiple_s3_weichai_f1_29.mp4",
+        "video_sha256": "d8a0f3006ac5fd7208be852c3ae80be574ce8bcd9368b1d8815e0f4d0e9dbfb8",
+        "video_bytes": 169896,
+        "video_frames": 244,
+        "video_seconds": 8.13,
+        "status": "kinematic_reference",
+        "note": ""
+      },
+      {
+        "file": "LAFAN_slow_arc_left_s1_weichai_f1_29.npz",
+        "qpos_sha256": "b0939bc6da877b90a3f8da954f4970d94b2429de15fdf4fce251db8b79fed776",
+        "qpos_bytes": 23687,
+        "qpos_fps": 30.0,
+        "qpos_frames": 151,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "walk1_subject1.bvh",
+        "selection": {
+          "start": 5868,
+          "end": 6019
+        },
+        "group": "slow_arc_left",
+        "video": "LAFAN_slow_arc_left_s1_weichai_f1_29.mp4",
+        "video_sha256": "56d3e02cb303478f4490930f41ab7830d279de27eb177a3bcb915b01a531a311",
+        "video_bytes": 112473,
+        "video_frames": 151,
+        "video_seconds": 5.03,
+        "status": "kinematic_reference",
+        "note": ""
+      },
+      {
+        "file": "LAFAN_slow_arc_left_s3_weichai_f1_29.npz",
+        "qpos_sha256": "814dbbfc6c6917aea680f5962b167367340a3a14c63ede39ae188eb9cada047e",
+        "qpos_bytes": 21191,
+        "qpos_fps": 30.0,
+        "qpos_frames": 151,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "walk3_subject3.bvh",
+        "selection": {
+          "start": 5621,
+          "end": 5772
+        },
+        "group": "slow_arc_left",
+        "video": "LAFAN_slow_arc_left_s3_weichai_f1_29.mp4",
+        "video_sha256": "2ef19477ba90ee1b15b86dba39ad8112621ba9acf2913f3fb2d3c44c91900ea1",
+        "video_bytes": 97690,
+        "video_frames": 151,
+        "video_seconds": 5.03,
+        "status": "kinematic_reference",
+        "note": ""
+      },
+      {
+        "file": "LAFAN_slow_arc_left_s4_weichai_f1_29.npz",
+        "qpos_sha256": "73b3ae6af23edb7458c00f801d7c296a8c02da3848649020fbc64bdaa6ae09fb",
+        "qpos_bytes": 23500,
+        "qpos_fps": 30.0,
+        "qpos_frames": 151,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "walk2_subject4.bvh",
+        "selection": {
+          "start": 2941,
+          "end": 3092
+        },
+        "group": "slow_arc_left",
+        "video": "LAFAN_slow_arc_left_s4_weichai_f1_29.mp4",
+        "video_sha256": "39fab4cee23d30b8b2661660ff79c754855f37f3cf665a17b1ee95efea96bd7c",
+        "video_bytes": 109459,
+        "video_frames": 151,
+        "video_seconds": 5.03,
+        "status": "kinematic_reference",
+        "note": ""
+      },
+      {
+        "file": "LAFAN_slow_arc_right_s1_weichai_f1_29.npz",
+        "qpos_sha256": "c69884a62062e4ced821c5b3affb9ccef7b0944f6094900e216f26744cc7d055",
+        "qpos_bytes": 23504,
+        "qpos_fps": 30.0,
+        "qpos_frames": 151,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "walk3_subject1.bvh",
+        "selection": {
+          "start": 2363,
+          "end": 2514
+        },
+        "group": "slow_arc_right",
+        "video": "LAFAN_slow_arc_right_s1_weichai_f1_29.mp4",
+        "video_sha256": "1dfad6e06b9702c979b190541e8f0bccc86e6924c40900c72973b857d0c35b90",
+        "video_bytes": 132702,
+        "video_frames": 151,
+        "video_seconds": 5.03,
+        "status": "kinematic_reference",
+        "note": ""
+      },
+      {
+        "file": "LAFAN_slow_arc_right_s3_weichai_f1_29.npz",
+        "qpos_sha256": "cf5cdcc79d06bca8a42d8bf4e94ccd06a2e3b1c0edfac673e32212c75bf52fa7",
+        "qpos_bytes": 22873,
+        "qpos_fps": 30.0,
+        "qpos_frames": 151,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "walk3_subject3.bvh",
+        "selection": {
+          "start": 3983,
+          "end": 4134
+        },
+        "group": "slow_arc_right",
+        "video": "LAFAN_slow_arc_right_s3_weichai_f1_29.mp4",
+        "video_sha256": "ac766f59f2a8cf5f2357e71730a50505d5ea763eb38cbb235e555553a93e3d2a",
+        "video_bytes": 87758,
+        "video_frames": 151,
+        "video_seconds": 5.03,
+        "status": "kinematic_reference",
+        "note": ""
+      },
+      {
+        "file": "LAFAN_slow_walk1_s1_weichai_f1_29.npz",
+        "qpos_sha256": "20c3e97325fa3f26a45df86d30f87fdf58244c936a6b70bf77cfaf09b38447d7",
+        "qpos_bytes": 43801,
+        "qpos_fps": 30.0,
+        "qpos_frames": 300,
+        "source_dataset": "LAFAN1 (Ubisoft La Forge)",
+        "source_member": "walk1_subject1.bvh",
+        "selection": {
+          "start": 5400,
+          "end": 5700
+        },
+        "group": "slow",
+        "video": "LAFAN_slow_walk1_s1_weichai_f1_29.mp4",
+        "video_sha256": "182eb7e7c9f20d791d9ed25382cfb8ff9c5928719736f74d291f9d0658432a31",
+        "video_bytes": 187286,
+        "video_frames": 300,
+        "video_seconds": 10.0,
+        "status": "kinematic_reference",
+        "note": ""
+      }
+    ],
+    "accad_capability_candidates": [
+      {
+        "file": "Female1_C25_sidestep_right_weichai_f1_29.npz",
+        "qpos_sha256": "fd87dd377170237178e303b795e313af47175b7faa19c0e06a17605e646205f6",
+        "qpos_bytes": 35980,
+        "qpos_fps": 120.0,
+        "qpos_frames": 245,
+        "source_dataset": "AMASS / ACCAD",
+        "source_member": "C25_-__side_step_right_stageii.npz",
+        "selection": {
+          "start": 0,
+          "end": 245
+        },
+        "group": "sidestep_right",
+        "video": "Female1_C25_sidestep_right_weichai_f1_29.mp4",
+        "video_sha256": "74fd4178546f6b5db169b0ca2a8e5775d566e5ac79cf4053c33ad84cc159f2b4",
+        "video_bytes": 45677,
+        "video_frames": 62,
+        "video_seconds": 2.07,
+        "status": "kinematic_reference",
+        "note": "Window 0-244 of the full ACCAD C25 quick side-step clip."
+      }
+    ],
+    "accad_capability_candidates/_deferred": [
+      {
+        "file": "Female1_B22_side_left_weichai_f1_29.npz",
+        "qpos_sha256": "316c658b0f583836553a8c457117bc3ecadd0f82ef3c808a9e79db7fcf8b9293",
+        "qpos_bytes": 152380,
+        "qpos_fps": 120.0,
+        "qpos_frames": 1103,
+        "source_dataset": "AMASS / ACCAD",
+        "source_member": null,
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "side_left",
+        "video": "Female1_B22_side_left_weichai_f1_29.mp4",
+        "video_sha256": "3a6cd8a4440e24ba38cfe83843db6c10cc41fd4b7c9617b2706ad4e1b767e2eb",
+        "video_bytes": 226804,
+        "video_frames": 276,
+        "video_seconds": 9.2,
+        "status": "deferred",
+        "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+        "deferred_reason": "foot_near_ground_below_50_percent"
+      },
+      {
+        "file": "Female1_B23_side_right_weichai_f1_29.npz",
+        "qpos_sha256": "6f21064ce5ef8343bb4150c0014654c46fa2042013235bc1789997d4485f779c",
+        "qpos_bytes": 138350,
+        "qpos_fps": 120.0,
+        "qpos_frames": 999,
+        "source_dataset": "AMASS / ACCAD",
+        "source_member": null,
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "side_right",
+        "video": "Female1_B23_side_right_weichai_f1_29.mp4",
+        "video_sha256": "6a5a693ade41d90be40a0cfd1a1664b3269f641b7f6e735924ba06915fb2aafc",
+        "video_bytes": 200901,
+        "video_frames": 250,
+        "video_seconds": 8.33,
+        "status": "deferred",
+        "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+        "deferred_reason": "foot_near_ground_below_50_percent"
+      },
+      {
+        "file": "Female1_C9_back_run_turn_forward_weichai_f1_29.npz",
+        "qpos_sha256": "dac77f87604990670257fd81c9d454a55432d5757e81d1971d63280d3c2c1654",
+        "qpos_bytes": 38952,
+        "qpos_fps": 120.0,
+        "qpos_frames": 275,
+        "source_dataset": "AMASS / ACCAD",
+        "source_member": null,
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "stop_reverse",
+        "video": "Female1_C9_back_run_turn_forward_weichai_f1_29.mp4",
+        "video_sha256": "c84fd8b30be945b350a03a95db723578dbe6550220ee07be9b25f2e9864ba2e4",
+        "video_bytes": 93026,
+        "video_frames": 69,
+        "video_seconds": 2.3,
+        "status": "deferred",
+        "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+        "deferred_reason": "foot_near_ground_below_50_percent"
+      },
+      {
+        "file": "Male2_C8_back_run_to_stand_weichai_f1_29.npz",
+        "qpos_sha256": "1bd64e5d87ba6f1ad7ff7165d3f9e81fa34d210ccb3ab3953e5432587b2bef23",
+        "qpos_bytes": 68381,
+        "qpos_fps": 120.0,
+        "qpos_frames": 481,
+        "source_dataset": "AMASS / ACCAD",
+        "source_member": null,
+        "selection": {
+          "start": null,
+          "end": null
+        },
+        "group": "stop_reverse",
+        "video": "Male2_C8_back_run_to_stand_weichai_f1_29.mp4",
+        "video_sha256": "5138f893617dbbf9d2c6475cf242d23c8d6d13f9ac9169f6523516f2e3ea5aa2",
+        "video_bytes": 112334,
+        "video_frames": 121,
+        "video_seconds": 4.03,
+        "status": "deferred",
+        "note": "deferred by UMR manifest: foot_near_ground_below_50_percent",
+        "deferred_reason": "foot_near_ground_below_50_percent"
+      }
+    ]
+  },
+  "excluded": [
+    "Female1_B12_walk_turn_right_90 (abandoned by accad_walking_extra: airborne source)",
+    "Male2_B5_walk_backwards (abandoned by accad_walking_extra: airborne source)"
+  ]
+}
